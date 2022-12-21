@@ -51,11 +51,11 @@ main{
             padding-bottom: 0px;
           }
         }
-      @include media_tablet{
+        @include media_tablet{
         @include flexTool(row);
         .grey{
           width: 30%;
-          max-height: 60px;
+          //max-height: 60px;
         }
       }
      }
