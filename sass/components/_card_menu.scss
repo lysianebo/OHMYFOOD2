@@ -11,10 +11,13 @@
     box-shadow: 4px 4px 5px  darken($colour-gray,12);
     height: 75px;
     overflow: hidden;
+
+    
     &:active, &:hover{
         .dish{
-            width: calc(300px - 80px);
-            padding-right: 10px;
+            transition: width 1s;
+            min-width: 300px;
+            padding-right: 10px
         }.fa-check-circle{
             animation: rotate 1s;
          }
@@ -25,8 +28,6 @@
     }
 }
 .dish{
-    background-color: red;
-    
     justify-content: space-between;
 }
 .dish p, h6{

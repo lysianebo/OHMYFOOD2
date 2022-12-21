@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 180,
+            "activePatchIndex": 196,
             "patches": [
                 {
                     "date": 1671581255128,
@@ -728,6 +728,70 @@
                 {
                     "date": 1671630817772,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     box-shadow: 4px 4px 5px  darken($colour-gray,12);\n     height: 75px;\n     overflow: hidden;\n     &:active, &:hover{\n-        width: calc(auto - 80px);\n+        \n         .dish{\n             width: calc(300px - 80px);\n             padding-right: 10px;\n         }.fa-check-circle{\n"
+                },
+                {
+                    "date": 1671633033963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,12 +11,12 @@\n     box-shadow: 4px 4px 5px  darken($colour-gray,12);\n     height: 75px;\n     overflow: hidden;\n     &:active, &:hover{\n-        \n         .dish{\n-            width: calc(300px - 80px);\n-            padding-right: 10px;\n+            transition: width 1s;\n+            min-width: 200px;\n+            padding-right: 10px\n         }.fa-check-circle{\n             animation: rotate 1s;\n          }\n         .validate{\n"
+                },
+                {
+                    "date": 1671633077893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n     height: 75px;\n     overflow: hidden;\n     &:active, &:hover{\n         .dish{\n+            b\n             transition: width 1s;\n             min-width: 200px;\n             padding-right: 10px\n         }.fa-check-circle{\n"
+                },
+                {
+                    "date": 1671633110407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     height: 75px;\n     overflow: hidden;\n     &:active, &:hover{\n         .dish{\n-            b\n+            ba\n             transition: width 1s;\n             min-width: 200px;\n             padding-right: 10px\n         }.fa-check-circle{\n"
+                },
+                {
+                    "date": 1671633116093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     height: 75px;\n     overflow: hidden;\n     &:active, &:hover{\n         .dish{\n-            ba\n+            background-color: red;\n             transition: width 1s;\n             min-width: 200px;\n             padding-right: 10px\n         }.fa-check-circle{\n"
+                },
+                {
+                    "date": 1671633156762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     height: 75px;\n     overflow: hidden;\n     &:active, &:hover{\n         .dish{\n-            background-color: red;\n+            background-color: rgb(0, 255, 17);\n             transition: width 1s;\n             min-width: 200px;\n             padding-right: 10px\n         }.fa-check-circle{\n"
+                },
+                {
+                    "date": 1671635615857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,8 @@\n     height: 75px;\n     overflow: hidden;\n     &:active, &:hover{\n         .dish{\n-            background-color: rgb(0, 255, 17);\n             transition: width 1s;\n             min-width: 200px;\n             padding-right: 10px\n         }.fa-check-circle{\n"
+                },
+                {
+                    "date": 1671635626875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     height: 75px;\n     overflow: hidden;\n     &:active, &:hover{\n         .dish{\n-            transition: width 1s;\n+        transition: width 1s;\n             min-width: 200px;\n             padding-right: 10px\n         }.fa-check-circle{\n             animation: rotate 1s;\n"
+                },
+                {
+                    "date": 1671635667790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,10 @@\n     height: 75px;\n     overflow: hidden;\n     &:active, &:hover{\n         .dish{\n-        transition: width 1s;\n+            \n+            transition: width 1s;\n             min-width: 200px;\n             padding-right: 10px\n         }.fa-check-circle{\n             animation: rotate 1s;\n"
+                },
+                {
+                    "date": 1671635673820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     height: 75px;\n     overflow: hidden;\n     &:active, &:hover{\n         .dish{\n-            \n+            background-color: rgb(0, 255, 17);\n             transition: width 1s;\n             min-width: 200px;\n             padding-right: 10px\n         }.fa-check-circle{\n"
+                },
+                {
+                    "date": 1671635686067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,8 @@\n     height: 75px;\n     overflow: hidden;\n     &:active, &:hover{\n         .dish{\n-            background-color: rgb(0, 255, 17);\n             transition: width 1s;\n             min-width: 200px;\n             padding-right: 10px\n         }.fa-check-circle{\n"
+                },
+                {
+                    "date": 1671636125665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n     background-color: white;\n     box-shadow: 4px 4px 5px  darken($colour-gray,12);\n     height: 75px;\n     overflow: hidden;\n+    \n     &:active, &:hover{\n         .dish{\n             transition: width 1s;\n             min-width: 200px;\n"
+                },
+                {
+                    "date": 1671636202993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n     background-color: white;\n     box-shadow: 4px 4px 5px  darken($colour-gray,12);\n     height: 75px;\n     overflow: hidden;\n+\n     \n     &:active, &:hover{\n         .dish{\n             transition: width 1s;\n@@ -26,9 +27,8 @@\n         }\n     }\n }\n .dish{\n-    background-color: red;\n     \n     justify-content: space-between;\n }\n .dish p, h6{\n"
+                },
+                {
+                    "date": 1671636234574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     \n     &:active, &:hover{\n         .dish{\n             transition: width 1s;\n-            min-width: 200px;\n+            min-width: 300px;\n             padding-right: 10px\n         }.fa-check-circle{\n             animation: rotate 1s;\n          }\n@@ -27,9 +27,8 @@\n         }\n     }\n }\n .dish{\n-    \n     justify-content: space-between;\n }\n .dish p, h6{\n     background-color: red;\n"
+                },
+                {
+                    "date": 1671636242528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     \n     &:active, &:hover{\n         .dish{\n             transition: width 1s;\n-            min-width: 300px;\n+            min-width: 00px;\n             padding-right: 10px\n         }.fa-check-circle{\n             animation: rotate 1s;\n          }\n"
+                },
+                {
+                    "date": 1671636269137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     \n     &:active, &:hover{\n         .dish{\n             transition: width 1s;\n-            min-width: 00px;\n+            width: 300px;\n             padding-right: 10px\n         }.fa-check-circle{\n             animation: rotate 1s;\n          }\n"
+                },
+                {
+                    "date": 1671636275807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     \n     &:active, &:hover{\n         .dish{\n             transition: width 1s;\n-            width: 300px;\n+            min-width: 300px;\n             padding-right: 10px\n         }.fa-check-circle{\n             animation: rotate 1s;\n          }\n"
                 }
             ],
             "date": 1671581255128,

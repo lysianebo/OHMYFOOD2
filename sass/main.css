@@ -221,7 +221,8 @@ html {
   overflow: hidden;
 }
 .course:active .dish, .course:hover .dish {
-  width: 220px;
+  transition: width 1s;
+  min-width: 300px;
   padding-right: 10px;
 }
 .course:active .fa-check-circle, .course:hover .fa-check-circle {
@@ -232,7 +233,6 @@ html {
 }
 
 .dish {
-  background-color: red;
   justify-content: space-between;
 }
 
