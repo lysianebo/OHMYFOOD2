@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 51,
+            "activePatchIndex": 55,
             "patches": [
                 {
                     "date": 1671618276929,
@@ -212,6 +212,22 @@
                 {
                     "date": 1671619417735,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,13 +60,14 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet {\n-            mar\n+            margin: 0%;\n                 display: flex;\n                 \n                 flex-flow: row wrap;\n                 \n+                \n                 .dish{\n                 width: 300px;\n                 }\n             }\n"
+                },
+                {
+                    "date": 1671621327851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,41 +64,15 @@\n             margin: 0%;\n                 display: flex;\n                 \n                 flex-flow: row wrap;\n+                justify-content: center;\n                 \n-                \n                 .dish{\n                 width: 300px;\n                 }\n             }\n         \n-            // justify-content: flex-start;\n-            // display: grid;\n-            // grid-template-columns: repeat(3,1fr);\n-            \n-            // .dish{\n-            //     min-width: 260px;\n-            // }\n-            // @include flexTool(row);\n-            // justify-content: flex-start;\n-            // .course{\n-            //     width: 40%;\n-            //         .dish{\n-            //              width: 85%;\n-            //          }\n-            // }\n-    \n-        // @include media_desktop{\n-        //     flex-direction: row;\n-            // .entrees, .plats, .desserts{\n-            //     width: 30%;\n-            // .course{\n-            //     width: auto;\n-            // .dish{\n-            //     width: 85%;\n-            //     }\n-            // }\n         }\n     \n     \n     a.commander{\n"
+                },
+                {
+                    "date": 1671622228768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,8 +47,9 @@\n         }\n     } \n     .menu{\n         width: 100%;\n+        \n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n         }\n"
+                },
+                {
+                    "date": 1671622233964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n         }\n     } \n     .menu{\n         width: 100%;\n-        \n+        @include \n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n         }\n"
+                },
+                {
+                    "date": 1671622240066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n         }\n     } \n     .menu{\n         width: 100%;\n-        @include \n+        @include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n         }\n"
                 }
             ],
             "date": 1671618276929,

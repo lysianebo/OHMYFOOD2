@@ -4,12 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -786,12 +780,6 @@ footer h4, footer ul, footer a h4, footer a ul {
 }
 footer ul, footer a ul {
   padding: 10px 20px;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 main form {
@@ -1234,6 +1222,7 @@ header a {
 
 .menu {
   width: 100%;
+  font-size: 88%;
 }
 .menu .entrees .course {
   animation: loading_menus 3s;
@@ -1290,12 +1279,6 @@ footer h4, footer ul, footer a h4, footer a ul {
 }
 footer ul, footer a ul {
   padding: 10px 20px;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 main form {
