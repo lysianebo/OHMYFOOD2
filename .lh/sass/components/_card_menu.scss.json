@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 201,
+            "activePatchIndex": 214,
             "patches": [
                 {
                     "date": 1671581255128,
@@ -812,6 +812,58 @@
                 {
                     "date": 1671639510930,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .course{\n     //width: calc(100%-40px);\n     //width: fit-content;\n-    width: 90%;\n+    width: ;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px 20px;\n"
+                },
+                {
+                    "date": 1671646755227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .course{\n-    //width: calc(100%-40px);\n+    /width: calc(100%-40px);\n     //width: fit-content;\n-    width: ;\n+    width: 360px;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px 20px;\n"
+                },
+                {
+                    "date": 1671646762241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .course{\n-    /width: calc(100%-40px);\n+    width: calc(100%-40px);\n     //width: fit-content;\n-    width: 360px;\n+    //width: 360px;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px 20px;\n"
+                },
+                {
+                    "date": 1671646778120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .course{\n-    width: calc(100%-40px);\n+    width: calc(100% -40px);\n     //width: fit-content;\n     //width: 360px;\n     opacity: 0;\n     display: flex;\n"
+                },
+                {
+                    "date": 1671646865571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .course{\n-    width: calc(100% -40px);\n+    width: calc(100% - 40px);\n     //width: fit-content;\n     //width: 360px;\n     opacity: 0;\n     display: flex;\n@@ -10,11 +10,9 @@\n     background-color: white;\n     box-shadow: 4px 4px 5px  darken($colour-gray,12);\n     height: 75px;\n     overflow: hidden;\n-\n-    \n-    &:active, &:hover{\n+&:active, &:hover{\n         .dish{\n             transition: width 1s;\n             min-width: 200px;\n             padding-right: 10px\n"
+                },
+                {
+                    "date": 1671646873420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,18 +10,18 @@\n     background-color: white;\n     box-shadow: 4px 4px 5px  darken($colour-gray,12);\n     height: 75px;\n     overflow: hidden;\n-&:active, &:hover{\n+    &:active, &:hover{\n         .dish{\n             transition: width 1s;\n             min-width: 200px;\n             padding-right: 10px\n         }.fa-check-circle{\n             animation: rotate 1s;\n          }\n         .validate{\n-            //width: 80px;  \n+            width: 80px;  \n             opacity: 0;\n         }\n     }\n }\n"
+                },
+                {
+                    "date": 1671646918177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     overflow: hidden;\n     &:active, &:hover{\n         .dish{\n             transition: width 1s;\n-            min-width: 200px;\n+            //min-width: 200px;\n             padding-right: 10px\n         }.fa-check-circle{\n             animation: rotate 1s;\n          }\n"
+                },
+                {
+                    "date": 1671646956795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n p{\n     padding-bottom: 15px;\n }\n .prix{\n-    width: 100%;\n+    //width: 100%;\n     text-align: right;\n     padding: 0 10px 15px 10px;\n     cursor: pointer;\n     transition: 1400ms ease-in-out;\n"
+                },
+                {
+                    "date": 1671646982895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n             animation: rotate 1s;\n          }\n         .validate{\n             width: 80px;  \n-            opacity: 0;\n+            opacity: 1;\n         }\n     }\n }\n .dish{\n"
+                },
+                {
+                    "date": 1671647131125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n .prix{\n     //width: 100%;\n     text-align: right;\n     padding: 0 10px 15px 10px;\n-    cursor: pointer;\n+    //cursor: pointer;\n     transition: 1400ms ease-in-out;\n }\n .validate{\n     @include flexTool(column);\n"
+                },
+                {
+                    "date": 1671647210965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     background-color:$colour-tertiary;\n     width: 0px;\n     opacity: 0;\n     height: 100%;\n-    animation: slide-left 0.5s ease-in;\n+    //animation: slide-left 0.5s ease-in;\n      opacity: 1s;\n     .fa-check-circle{\n         color: white;\n         font-size: 30px;\n"
+                },
+                {
+                    "date": 1671647728269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .course{\n     width: calc(100% - 40px);\n     //width: fit-content;\n-    //width: 360px;\n+    width: 360px;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px 20px;\n"
+                },
+                {
+                    "date": 1671647775524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n         }\n     }\n }\n .dish{\n-    \n+    d\n     justify-content: space-between;\n }\n .dish p, h6{\n     padding-left: 15px;\n"
+                },
+                {
+                    "date": 1671647790960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     }\n }\n .dish{\n     display: flex;\n-    \n+    d\n     justify-content: space-between;\n }\n .dish p, h6{\n     padding-left: 15px;\n"
                 }
             ],
             "date": 1671581255128,

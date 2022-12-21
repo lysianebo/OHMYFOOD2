@@ -209,7 +209,8 @@ html {
 }
 
 .course {
-  width: 360px;
+  width: 90%;
+  margin: auto;
   opacity: 0;
   display: flex;
   align-items: flex-end;
@@ -222,17 +223,19 @@ html {
 }
 .course:active .dish, .course:hover .dish {
   transition: width 1s;
-  min-width: 200px;
   padding-right: 10px;
 }
 .course:active .fa-check-circle, .course:hover .fa-check-circle {
   animation: rotate 1s;
 }
 .course:active .validate, .course:hover .validate {
-  opacity: 0;
+  width: 80px;
+  opacity: 1;
 }
 
 .dish {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -251,7 +254,6 @@ p {
   width: 100%;
   text-align: right;
   padding: 0 10px 15px 10px;
-  cursor: pointer;
   transition: 1400ms ease-in-out;
 }
 
@@ -266,7 +268,6 @@ p {
   width: 0px;
   opacity: 0;
   height: 100%;
-  animation: slide-left 0.5s ease-in;
   opacity: 1s;
 }
 .validate .fa-check-circle {
@@ -345,7 +346,7 @@ i {
 
 .heart .fas {
   position: absolute;
-  right: 10px;
+  right: 15px;
   top: 0px;
   font-weight: 100;
   font-size: 26px;
@@ -451,7 +452,8 @@ header a {
     width: 300px;
   }
 }
-.menu a.commander {
+
+a.commander {
   width: 300px;
   margin: 50px auto;
 }

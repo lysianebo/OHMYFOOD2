@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 20,
+            "activePatchIndex": 22,
             "patches": [
                 {
                     "date": 1671623020761,
@@ -88,6 +88,14 @@
                 {
                     "date": 1671629332369,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n                 .dish{\n-                //width: 300px;\n+                width: 300px;\n                 }\n             }\n         \n     \n@@ -57,5 +57,5 @@\n         width: 300px;\n         margin: 50px auto;\n     }\n         \n-     \n\\ No newline at end of file\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671647416595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,10 +50,10 @@\n                 width: 300px;\n                 }\n             }\n         \n+        }\n     \n-    \n     a.commander{\n         width: 300px;\n         margin: 50px auto;\n     }\n"
+                },
+                {
+                    "date": 1671647705278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,5 +57,4 @@\n         width: 300px;\n         margin: 50px auto;\n     }\n         \n-}\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1671623020761,
