@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 198,
+            "activePatchIndex": 201,
             "patches": [
                 {
                     "date": 1671581255128,
@@ -800,6 +800,18 @@
                 {
                     "date": 1671638041038,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,8 @@\n .dish{\n     justify-content: space-between;\n }\n .dish p, h6{\n-    background-color: red;\n     padding-left: 15px;\n     overflow: hidden;\n     white-space: nowrap;\n     text-overflow: ellipsis;\n"
+                },
+                {
+                    "date": 1671639476392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .course{\n     //width: calc(100%-40px);\n     //width: fit-content;\n-    width: 360px;\n+    width: 360px1;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px 20px;\n"
+                },
+                {
+                    "date": 1671639482466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .course{\n     //width: calc(100%-40px);\n     //width: fit-content;\n-    width: 360px1;\n+    width: 90%;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px 20px;\n"
+                },
+                {
+                    "date": 1671639510930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .course{\n     //width: calc(100%-40px);\n     //width: fit-content;\n-    width: 90%;\n+    width: ;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px 20px;\n"
                 }
             ],
             "date": 1671581255128,

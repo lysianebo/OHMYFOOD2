@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 17,
+            "activePatchIndex": 48,
             "patches": [
                 {
                     "date": 1671576903536,
@@ -76,6 +76,130 @@
                 {
                     "date": 1671622846014,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,8 @@\n @if $width > 84%{\n     font-size: 88%;\n     }\n }\n-   \n \n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n"
+                },
+                {
+                    "date": 1671640348447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,11 @@\n @if $width > 84%{\n     font-size: 88%;\n     }\n }\n+@mixin dish(){\n \n+\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n     @media screen and (min-width:map-get($breakpoints, tablet)){\n"
+                },
+                {
+                    "date": 1671640354010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,8 @@\n @if $width > 84%{\n     font-size: 88%;\n     }\n }\n-@mixin dish(){\n \n \n //**** Mixins Media Querys ***\n \n"
+                },
+                {
+                    "date": 1671640362910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n     }\n }\n \n \n+\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n     @media screen and (min-width:map-get($breakpoints, tablet)){\n"
+                },
+                {
+                    "date": 1671640382754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,11 +25,16 @@\n @if $width > 84%{\n     font-size: 88%;\n     }\n }\n+@mixin course(){\n+    $width : 85%;   \n+@if $width > 84%{\n+    font-size: 88%;\n+    }\n+}\n \n \n-\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n     @media screen and (min-width:map-get($breakpoints, tablet)){\n"
+                },
+                {
+                    "date": 1671640391187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     font-size: 88%;\n     }\n }\n @mixin course(){\n-    $width : 85%;   \n+    $width : ;   \n @if $width > 84%{\n     font-size: 88%;\n     }\n }\n"
+                },
+                {
+                    "date": 1671640396757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     font-size: 88%;\n     }\n }\n @mixin course(){\n-    $width : ;   \n+    $width : 220;   \n @if $width > 84%{\n     font-size: 88%;\n     }\n }\n"
+                },
+                {
+                    "date": 1671640407031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,10 @@\n     font-size: 88%;\n     }\n }\n @mixin course(){\n-    $width : 220;   \n-@if $width > 84%{\n+    $width : 220px;   \n+@if $width > 84%2{\n     font-size: 88%;\n     }\n }\n \n"
+                },
+                {
+                    "date": 1671640415059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     }\n }\n @mixin course(){\n     $width : 220px;   \n-@if $width > 84%2{\n+@if $width > 220{\n     font-size: 88%;\n     }\n }\n \n"
+                },
+                {
+                    "date": 1671640444736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,10 +27,10 @@\n     }\n }\n @mixin course(){\n     $width : 220px;   \n-@if $width > 220{\n-    font-size: 88%;\n+@if $width > 221{\n+   @\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1671640518085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n }\n @mixin course(){\n     $width : 220px;   \n @if $width > 221{\n-   @\n+   @include\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1671640526091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n }\n @mixin course(){\n     $width : 220px;   \n @if $width > 221{\n-   @include\n+   @include media_desktop()\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1671640802055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,9 @@\n }\n @mixin course(){\n     $width : 220px;   \n @if $width > 221{\n-   @include media_desktop()\n-    }\n+   .gre\n }\n \n \n //**** Mixins Media Querys ***\n"
+                },
+                {
+                    "date": 1671640809357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,11 @@\n }\n @mixin course(){\n     $width : 220px;   \n @if $width > 221{\n-   .gre\n+   .course{\n+    \n+   }\n }\n \n \n //**** Mixins Media Querys ***\n"
+                },
+                {
+                    "date": 1671640923959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,11 +27,11 @@\n     }\n }\n @mixin course(){\n     $width : 220px;   \n-@if $width > 221{\n+@if $width > 221p{\n    .course{\n-    \n+    width: ;\n    }\n }\n \n \n"
+                },
+                {
+                    "date": 1671640931982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,11 +27,11 @@\n     }\n }\n @mixin course(){\n     $width : 220px;   \n-@if $width > 221p{\n+@if $width > 221px{\n    .course{\n-    width: ;\n+    width: 24;\n    }\n }\n \n \n"
+                },
+                {
+                    "date": 1671640938935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n @mixin course(){\n     $width : 220px;   \n @if $width > 221px{\n    .course{\n-    width: 24;\n+    width: 234px;\n    }\n }\n \n \n"
+                },
+                {
+                    "date": 1671640966824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,8 +34,9 @@\n    }\n }\n \n \n+\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n     @media screen and (min-width:map-get($breakpoints, tablet)){\n"
+                },
+                {
+                    "date": 1671641089314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,16 +27,16 @@\n     }\n }\n @mixin course(){\n     $width : 220px;   \n-@if $width > 221px{\n+@if $width  221px{\n    .course{\n     width: 234px;\n    }\n }\n+}\n \n \n-\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n     @media screen and (min-width:map-get($breakpoints, tablet)){\n"
+                },
+                {
+                    "date": 1671641094681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     }\n }\n @mixin course(){\n     $width : 220px;   \n-@if $width  221px{\n+@if $width = 221px{\n    .course{\n     width: 234px;\n    }\n }\n"
+                },
+                {
+                    "date": 1671641151740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n @mixin course(){\n     $width : 220px;   \n @if $width = 221px{\n    .course{\n-    width: 234px;\n+    width: ca;\n    }\n }\n }\n \n"
+                },
+                {
+                    "date": 1671641160596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n @mixin course(){\n     $width : 220px;   \n @if $width = 221px{\n    .course{\n-    width: ca;\n+    width: calc(100%);\n    }\n }\n }\n \n"
+                },
+                {
+                    "date": 1671641185116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n @mixin course(){\n     $width : 220px;   \n @if $width = 221px{\n    .course{\n-    width: calc(100%);\n+    width: calc(100% + 20px);\n    }\n }\n }\n \n"
+                },
+                {
+                    "date": 1671641200128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n @mixin course(){\n     $width : 220px;   \n @if $width = 221px{\n    .course{\n+    ba\n     width: calc(100% + 20px);\n    }\n }\n }\n"
+                },
+                {
+                    "date": 1671641223474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,11 +27,11 @@\n     }\n }\n @mixin course(){\n     $width : 220px;   \n-@if $width = 221px{\n+@if $width  221px{\n    .course{\n-    ba\n+    background-color: red;\n     width: calc(100% + 20px);\n    }\n }\n }\n"
+                },
+                {
+                    "date": 1671641329866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     }\n }\n @mixin course(){\n     $width : 220px;   \n-@if $width  221px{\n+@if $width > 2px{\n    .course{\n     background-color: red;\n     width: calc(100% + 20px);\n    }\n"
+                },
+                {
+                    "date": 1671641368822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,12 +27,12 @@\n     }\n }\n @mixin course(){\n     $width : 220px;   \n-@if $width > 2px{\n+@if $width > 217px{\n    .course{\n     background-color: red;\n-    width: calc(100% + 20px);\n+    width: calc(100% + px);\n    }\n }\n }\n \n"
+                },
+                {
+                    "date": 1671641394468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     $width : 220px;   \n @if $width > 217px{\n    .course{\n     background-color: red;\n-    width: calc(100% + px);\n+    width: calc(100% + 40px);\n    }\n }\n }\n \n"
+                },
+                {
+                    "date": 1671641681293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     $width : 220px;   \n @if $width > 217px{\n    .course{\n     background-color: red;\n-    width: calc(100% + 40px);\n+    width: calc(100% + 10px);\n    }\n }\n }\n \n"
+                },
+                {
+                    "date": 1671641761565,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,9 @@\n     font-size: 88%;\n     }\n }\n @mixin course(){\n+    \n     $width : 220px;   \n @if $width > 217px{\n    .course{\n     background-color: red;\n"
+                },
+                {
+                    "date": 1671641770816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     font-size: 88%;\n     }\n }\n @mixin course(){\n-    .course \n+    .course p\n     $width : 220px;   \n @if $width > 217px{\n    .course{\n     background-color: red;\n"
+                },
+                {
+                    "date": 1671641945358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     }\n }\n @mixin course(){\n     .course{\n-    $width : px;   \n+    $width : 1px;   \n @if $width > 156px{\n     width: calc(100% + 30px);\n     background-color: red;\n    \n"
                 }
             ],
             "date": 1671576903536,

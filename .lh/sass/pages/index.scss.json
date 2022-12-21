@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 81,
+            "activePatchIndex": 82,
             "patches": [
                 {
                     "date": 1671572701782,
@@ -332,6 +332,10 @@
                 {
                     "date": 1671575538816,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n      @include flexTool(column);\n-      position: relative;\n+     position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 300px;\n         \n"
+                },
+                {
+                    "date": 1671643405905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n         .grey{\n           width: 30%;\n           $width : 183px;\n \n-@if . > 875px{\n+@if .f > 875px{\n     .course{\n     width: calc(100% + 2%);\n     background-color: red;\n     }\n"
                 }
             ],
             "date": 1671572701782,

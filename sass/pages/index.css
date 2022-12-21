@@ -101,6 +101,7 @@ main .fonctionnement .trois-etapes {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-items: center;
   position: relative;
   margin: 0 20px;
 }
@@ -110,6 +111,7 @@ main .fonctionnement .trois-etapes .grey {
 main .fonctionnement .trois-etapes .grey p {
   width: 500px;
   padding-left: 20px;
+  padding-bottom: 0px;
 }
 @media screen and (min-width: 769px) {
   main .fonctionnement .trois-etapes {
@@ -120,30 +122,32 @@ main .fonctionnement .trois-etapes .grey p {
   }
   main .fonctionnement .trois-etapes .grey {
     width: 30%;
+    max-height: 60px;
   }
 }
-main .liste_restaurants {
+
+.liste_restaurants {
   padding-top: 20px;
 }
-main .liste_restaurants .liste_cards {
+.liste_restaurants .liste_cards {
   display: grid;
   grid-template-columns: 1fr;
 }
 @media screen and (min-width: 769px) {
-  main .liste_restaurants .liste_cards {
+  .liste_restaurants .liste_cards {
     grid-template-columns: repeat(2, 1fr);
   }
-  main .liste_restaurants .liste_cards h2 {
+  .liste_restaurants .liste_cards h2 {
     text-align: center;
   }
 }
 @media screen and (min-width: 992px) {
-  main .liste_restaurants .liste_cards {
+  .liste_restaurants .liste_cards {
     grid-template-columns: repeat(4, 1fr);
     padding-bottom: 20px;
     font-size: 90%;
   }
-  main .liste_restaurants .liste_cards h2 {
+  .liste_restaurants .liste_cards h2 {
     text-align: center;
   }
 }/*# sourceMappingURL=index.css.map */
