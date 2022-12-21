@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 15,
             "patches": [
                 {
                     "date": 1671616103635,
@@ -36,6 +36,38 @@
                 {
                     "date": 1671644609628,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n     @include flexTool(row);\n     justify-content: center;\n     width: 300px;\n     max-height: 50px;\n-    padd\n+    padding: 10px\n     //margin: auto;\n     margin-bottom: 30px;\n     background-color: lighten($colour-gray, 2);\n     color: $colour-black;\n"
+                },
+                {
+                    "date": 1671644717995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n     @include flexTool(row);\n     justify-content: center;\n     width: 300px;\n     max-height: 50px;\n-    padding: 10px\n+    padding: 10px;\n     //margin: auto;\n     margin-bottom: 30px;\n     background-color: lighten($colour-gray, 2);\n     color: $colour-black;\n"
+                },
+                {
+                    "date": 1671644752416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n     @include flexTool(row);\n     justify-content: center;\n     width: 300px;\n     max-height: 50px;\n-    padding: 10px;\n+    padding: 15px;\n     //margin: auto;\n     margin-bottom: 30px;\n     background-color: lighten($colour-gray, 2);\n     color: $colour-black;\n"
+                },
+                {
+                    "date": 1671644783744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     position: relative;\n     @include flexTool(row);\n     justify-content: center;\n     width: 300px;\n-    max-height: 50px;\n+    max-height: 0px;\n     padding: 15px;\n     //margin: auto;\n     margin-bottom: 30px;\n     background-color: lighten($colour-gray, 2);\n"
+                },
+                {
+                    "date": 1671644802155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     position: relative;\n     @include flexTool(row);\n     justify-content: center;\n     width: 300px;\n-    max-height: 0px;\n+    max-height: 20px;\n     padding: 15px;\n     //margin: auto;\n     margin-bottom: 30px;\n     background-color: lighten($colour-gray, 2);\n"
+                },
+                {
+                    "date": 1671644817304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n     @include flexTool(row);\n     justify-content: center;\n     width: 300px;\n     max-height: 20px;\n-    padding: 15px;\n+    padding: 1520px;\n     //margin: auto;\n     margin-bottom: 30px;\n     background-color: lighten($colour-gray, 2);\n     color: $colour-black;\n"
+                },
+                {
+                    "date": 1671644833096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,10 @@\n     position: relative;\n     @include flexTool(row);\n     justify-content: center;\n     width: 300px;\n-    max-height: 20px;\n-    padding: 1520px;\n+    height: 20px;\n+    padding: 20px;\n     //margin: auto;\n     margin-bottom: 30px;\n     background-color: lighten($colour-gray, 2);\n     color: $colour-black;\n"
+                },
+                {
+                    "date": 1671644858849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     position: relative;\n     @include flexTool(row);\n     justify-content: center;\n     width: 300px;\n-    height: 20px;\n+    height: 40px;\n     padding: 20px;\n     //margin: auto;\n     margin-bottom: 30px;\n     background-color: lighten($colour-gray, 2);\n"
+                },
+                {
+                    "date": 1671644874030,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     position: relative;\n     @include flexTool(row);\n     justify-content: center;\n     width: 300px;\n-    height: 40px;\n+    height: 0px;\n     padding: 20px;\n     //margin: auto;\n     margin-bottom: 30px;\n     background-color: lighten($colour-gray, 2);\n"
                 }
             ],
             "date": 1671616103635,

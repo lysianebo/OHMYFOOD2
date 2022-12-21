@@ -316,7 +316,8 @@ p {
   align-items: center;
   justify-content: center;
   width: 300px;
-  max-height: 50px;
+  height: 60px;
+  padding: 20px;
   margin-bottom: 30px;
   background-color: #f8f8f8;
   color: #000000;
@@ -604,7 +605,6 @@ main .fonctionnement .trois-etapes .grey p {
   }
   main .fonctionnement .trois-etapes .grey {
     width: 30%;
-    max-height: 60px;
   }
 }
 
