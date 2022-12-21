@@ -1,3 +1,21 @@
+@import '../base/base';
+@import '../base/fonts';
+@import '../base/typography';
+@import '../utils/maps';
+@import '../utils/variables';
+@import '../utils/mixin';
+@import '../utils/keyframes';
+@import '../components/loader';
+@import '../components/card_restaurant';
+@import '../components/cardMenu';
+@import '../components/greenLign';
+@import '../components/buttons';
+@import '../components/icones';
+@import '../components/circle';
+//@import '../layout/restaurantMenu';
+@import '../layout/footer';
+@import '../pages/index';
+@import '../vendors/normalize';
 header{
     position: relative;
     a{
@@ -25,18 +43,11 @@ header{
         .heart .fas{
             top: 35px;
             right: 30px;
-            // animation: fill-heart 1s ease-in-out;
         }
         }
     } 
     .menu{
-        display: flex;
-        flex-direction: column;
-        //justify-content: center;
-        //width: 100%;
-    //     .entrees .plats .desserts{
-    //       width: 30%;
-    //    }
+        width: 100%;
         .entrees .course{
             animation : loading_menus 3s;
             animation-fill-mode: forwards;
@@ -49,16 +60,26 @@ header{
             animation : loading_menus 9s;
             animation-fill-mode: forwards;
         }
-        @include media_desktop{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            .course{
-                width: 90%;
+        @include media_tablet {
+            margin: 0%;
+                display: flex;
+                
+                flex-flow: row wrap;
+                justify-content: center;
+                
+                .dish{
+                width: 300px;
+                }
             }
+        
+            // justify-content: flex-start;
+            // display: grid;
+            // grid-template-columns: repeat(3,1fr);
+            
             // .dish{
             //     min-width: 260px;
             // }
-            // @include flexCenter(row);
+            // @include flexTool(row);
             // justify-content: flex-start;
             // .course{
             //     width: 40%;
@@ -66,7 +87,7 @@ header{
             //              width: 85%;
             //          }
             // }
-        }
+    
         // @include media_desktop{
         //     flex-direction: row;
             // .entrees, .plats, .desserts{
@@ -84,5 +105,5 @@ header{
         width: 300px;
         margin: 50px auto;
     }
-
-    
+        
+     

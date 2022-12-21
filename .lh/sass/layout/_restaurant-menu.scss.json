@@ -67,31 +67,31 @@
                 },
                 {
                     "date": 1671586340059,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n-            flex-direction: column;\n+            @include flexCenter(column);\n             .course{\n                 width: 33%;\n                     .dish{\n                         width: 85%;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n-            flex-direction: column;\n+            @include flexTool(column);\n             .course{\n                 width: 33%;\n                     .dish{\n                         width: 85%;\n"
                 },
                 {
                     "date": 1671586353924,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,9 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n             @include flexCenter(column);\n+            jus\n             .course{\n                 width: 33%;\n                     .dish{\n                         width: 85%;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,9 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n             @include flexTool(column);\n+            jus\n             .course{\n                 width: 33%;\n                     .dish{\n                         width: 85%;\n"
                 },
                 {
                     "date": 1671586364650,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n             @include flexCenter(column);\n-            jus\n+            justify-content: f;\n             .course{\n                 width: 33%;\n                     .dish{\n                         width: 85%;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n             @include flexTool(column);\n-            jus\n+            justify-content: f;\n             .course{\n                 width: 33%;\n                     .dish{\n                         width: 85%;\n"
                 },
                 {
                     "date": 1671586386945,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,10 +49,10 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n-            @include flexCenter(column);\n-            justify-content: f;\n+            @include flexCenter(c);\n+            justify-content: flex-start;\n             .course{\n                 width: 33%;\n                     .dish{\n                         width: 85%;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,10 +49,10 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n-            @include flexTool(column);\n-            justify-content: f;\n+            @include flexTool(c);\n+            justify-content: flex-start;\n             .course{\n                 width: 33%;\n                     .dish{\n                         width: 85%;\n"
                 },
                 {
                     "date": 1671586403828,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,12 +49,12 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n-            @include flexCenter(c);\n+            @include flexCenter(row);\n             justify-content: flex-start;\n             .course{\n-                width: 33%;\n+                width: %;\n                     .dish{\n                         width: 85%;\n                     }\n             }\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,12 +49,12 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n-            @include flexTool(c);\n+            @include flexTool(row);\n             justify-content: flex-start;\n             .course{\n-                width: 33%;\n+                width: %;\n                     .dish{\n                         width: 85%;\n                     }\n             }\n"
                 },
                 {
                     "date": 1671586426037,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,12 +52,12 @@\n         @include media_tablet{\n             @include flexCenter(row);\n             justify-content: flex-start;\n             .course{\n-                width: %;\n-                    .dish{\n-                        width: 85%;\n-                    }\n+                width: 40%;\n+                    // .dish{\n+                    //     width: 85%;\n+                    // }\n             }\n         }\n         @include media_desktop{\n             flex-direction: row;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,12 +52,12 @@\n         @include media_tablet{\n             @include flexTool(row);\n             justify-content: flex-start;\n             .course{\n-                width: %;\n-                    .dish{\n-                        width: 85%;\n-                    }\n+                width: 40%;\n+                    // .dish{\n+                    //     width: 85%;\n+                    // }\n             }\n         }\n         @include media_desktop{\n             flex-direction: row;\n"
                 },
                 {
                     "date": 1671586434067,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n         @include media_tablet{\n             @include flexCenter(row);\n             justify-content: flex-start;\n             .course{\n-                width: 40%;\n+                //width: 40%;\n                     // .dish{\n                     //     width: 85%;\n                     // }\n             }\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n         @include media_tablet{\n             @include flexTool(row);\n             justify-content: flex-start;\n             .course{\n-                width: 40%;\n+                //width: 40%;\n                     // .dish{\n                     //     width: 85%;\n                     // }\n             }\n"
                 },
                 {
                     "date": 1671586459578,
@@ -119,11 +119,11 @@
                 },
                 {
                     "date": 1671586633996,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n         @include media_tablet{\n             @include flexCenter(row);\n             justify-content: flex-start;\n             .course{\n-                //width: 40%;\n+                width: 40%;\n                     // .dish{\n                     //     width: 85%;\n                     // }\n             }\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n         @include media_tablet{\n             @include flexTool(row);\n             justify-content: flex-start;\n             .course{\n-                //width: 40%;\n+                width: 40%;\n                     // .dish{\n                     //     width: 85%;\n                     // }\n             }\n"
                 },
                 {
                     "date": 1671586657255,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n             @include flexCenter(row);\n             justify-content: flex-start;\n             .course{\n                 width: 40%;\n-                    // .dish{\n+                    .dish{\n                     //     width: 85%;\n                     // }\n             }\n         }\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n             @include flexTool(row);\n             justify-content: flex-start;\n             .course{\n                 width: 40%;\n-                    // .dish{\n+                    .dish{\n                     //     width: 85%;\n                     // }\n             }\n         }\n"
                 },
                 {
                     "date": 1671586664654,
@@ -131,15 +131,15 @@
                 },
                 {
                     "date": 1671586680843,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,14 +51,14 @@\n         }\n         @include media_tablet{\n             @include flexCenter(row);\n             justify-content: flex-start;\n-            .course{\n-                width: 40%;\n-                    .dish{\n-                         width: 85%;\n-                     }\n-            }\n+            // .course{\n+            //     width: 40%;\n+            //         .dish{\n+            //              width: 85%;\n+            //          }\n+            // }\n         }\n         @include media_desktop{\n             flex-direction: row;\n             // .entrees, .plats, .desserts{\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,14 +51,14 @@\n         }\n         @include media_tablet{\n             @include flexTool(row);\n             justify-content: flex-start;\n-            .course{\n-                width: 40%;\n-                    .dish{\n-                         width: 85%;\n-                     }\n-            }\n+            // .course{\n+            //     width: 40%;\n+            //         .dish{\n+            //              width: 85%;\n+            //          }\n+            // }\n         }\n         @include media_desktop{\n             flex-direction: row;\n             // .entrees, .plats, .desserts{\n"
                 },
                 {
                     "date": 1671586734719,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n             @include flexCenter(row);\n-            justify-content: flex-start;\n+           // justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n             //         .dish{\n             //              width: 85%;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n             @include flexTool(row);\n-            justify-content: flex-start;\n+           // justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n             //         .dish{\n             //              width: 85%;\n"
                 },
                 {
                     "date": 1671586741145,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n             @include flexCenter(row);\n-           // justify-content: flex-start;\n+            justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n             //         .dish{\n             //              width: 85%;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n             @include flexTool(row);\n-           // justify-content: flex-start;\n+            justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n             //         .dish{\n             //              width: 85%;\n"
                 },
                 {
                     "date": 1671586864404,
@@ -151,23 +151,23 @@
                 },
                 {
                     "date": 1671586892318,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,10 +49,10 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n-            @include flexCenter(row);\n-            justify-content: flex-start;\n+            // @include flexCenter(row);\n+            // justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n             //         .dish{\n             //              width: 85%;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,10 +49,10 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n-            @include flexTool(row);\n-            justify-content: flex-start;\n+            // @include flexTool(row);\n+            // justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n             //         .dish{\n             //              width: 85%;\n"
                 },
                 {
                     "date": 1671586902391,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,8 +49,9 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n+            display: ;\n             // @include flexCenter(row);\n             // justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,8 +49,9 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n+            display: ;\n             // @include flexTool(row);\n             // justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n"
                 },
                 {
                     "date": 1671586908324,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,10 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n-            display: ;\n+            display: grid;\n+            \n             // @include flexCenter(row);\n             // justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,10 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n-            display: ;\n+            display: grid;\n+            \n             // @include flexTool(row);\n             // justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n"
                 },
                 {
                     "date": 1671586916985,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n             display: grid;\n-            \n+            grid-template-columns: 3;\n             // @include flexCenter(row);\n             // justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n             display: grid;\n-            \n+            grid-template-columns: 3;\n             // @include flexTool(row);\n             // justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n"
                 },
                 {
                     "date": 1671586929353,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n             display: grid;\n-            grid-template-columns: repea3fr;\n+            grid-template-columns: repear3fr;\n             // @include flexCenter(row);\n             // justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet{\n             display: grid;\n-            grid-template-columns: repea3fr;\n+            grid-template-columns: repear3fr;\n             // @include flexTool(row);\n             // justify-content: flex-start;\n             // .course{\n             //     width: 40%;\n"
                 }
             ],
             "date": 1671582211978,

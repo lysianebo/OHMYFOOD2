@@ -1,6 +1,12 @@
+@import '../base/base';
+@import '../base/fonts';
+//0@import '../base/typography';
+@import '../utils/maps';
+@import '../utils/variables';
+@import '../utils/mixin';
 main{
   form{
-    @include flexCenter(row);
+    @include flexTool(row);
     height: 55px;
     background-color: darken($colour-gray, 5);
     border: none;
@@ -24,7 +30,7 @@ main{
     padding-bottom: 40px;
   }
   .introduction{
-    @include flexCenter(column);
+    @include flexTool(column);
     .introduction__titre{
       width: 90%;
       text-align: center;
@@ -34,7 +40,7 @@ main{
   .fonctionnement{
     background-color: $colour-white;
     .trois-etapes{
-      @include flexCenter(column);
+      @include flexTool(column);
       position: relative;
       margin: 0 20px;
         .grey{
@@ -45,7 +51,7 @@ main{
           }
         }
       @include media_tablet{
-        @include flexCenter(row);
+        @include flexTool(row);
         .grey{
           width: 30%;
         }

@@ -10,7 +10,7 @@
     border-radius: 50px;
     box-shadow: 4px 4px 3px 2px $colour-secondary;
     &.commander{
-        @include flexCenter(row);
+        @include flexTool(row);
         margin-bottom: 40px;
        }
     &:hover{
@@ -22,7 +22,7 @@
 }
 .grey{
     position: relative;
-    @include flexCenter(row);
+    @include flexTool(row);
     justify-content: center;
     width: 300px;
     margin: auto;

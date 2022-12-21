@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 15,
             "patches": [
                 {
                     "date": 1671576903536,
@@ -16,11 +16,63 @@
                 {
                     "date": 1671576968869,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n }\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n-    @media screen and (min-width:map-get($breakpoints, tablet))){\n+    @media screen and (min-width:map-get($breakpoints, tablet)){\n         @content;\n     }\n }\n @mixin media_desktop{\n"
+                },
+                {
+                    "date": 1671613260173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n     display: block;\n     margin-left: auto;\n     margin-right: auto;\n }\n+\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n     @media screen and (min-width:map-get($breakpoints, tablet)){\n"
+                },
+                {
+                    "date": 1671613279097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,14 @@\n     display: block;\n     margin-left: auto;\n     margin-right: auto;\n }\n-\n+@mixin dish(){\n+    $width : 85%;   \n+@if $width > 84%{\n+    font-size: 88%;\n+    }\n+    \n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n     @media screen and (min-width:map-get($breakpoints, tablet)){\n"
+                },
+                {
+                    "date": 1671613285222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     $width : 85%;   \n @if $width > 84%{\n     font-size: 88%;\n     }\n-    \n+}\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n     @media screen and (min-width:map-get($breakpoints, tablet)){\n"
+                },
+                {
+                    "date": 1671615038162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,9 @@\n     $width : 85%;   \n @if $width > 84%{\n     font-size: 88%;\n     }\n+    \n }\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n"
+                },
+                {
+                    "date": 1671615047128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,14 @@\n     $width : 85%;   \n @if $width > 84%{\n     font-size: 88%;\n     }\n-    \n+    @mixin dish(){\n+        $width : 85%;   \n+    @if $width > 84%{\n+        font-size: 88%;\n+        }\n+        \n }\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n"
+                },
+                {
+                    "date": 1671615067032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,14 +23,15 @@\n     $width : 85%;   \n @if $width > 84%{\n     font-size: 88%;\n     }\n+}\n     @mixin dish(){\n         $width : 85%;   \n     @if $width > 84%{\n         font-size: 88%;\n         }\n-        \n+    }\n }\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n"
+                },
+                {
+                    "date": 1671615077446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,15 +24,15 @@\n @if $width > 84%{\n     font-size: 88%;\n     }\n }\n-    @mixin dish(){\n+    @mixin di(){\n         $width : 85%;   \n     @if $width > 84%{\n         font-size: 88%;\n         }\n     }\n-}\n+\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n     @media screen and (min-width:map-get($breakpoints, tablet)){\n"
+                },
+                {
+                    "date": 1671615968256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n //**** Mixins for Layout ***\n \n-@mixin flexTool($direction){\n+@mixin flex($direction){\n     display: flex;\n     flex-direction: $direction;\n     justify-content: center; \n     align-items: center; \n@@ -24,9 +24,9 @@\n @if $width > 84%{\n     font-size: 88%;\n     }\n }\n-    @mixin di(){\n+    @mixin course(){\n         $width : 85%;   \n     @if $width > 84%{\n         font-size: 88%;\n         }\n"
+                },
+                {
+                    "date": 1671615977046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n //**** Mixins for Layout ***\n \n-@mixin flex($direction){\n+@mixin flexD($direction){\n     display: flex;\n     flex-direction: $direction;\n     justify-content: center; \n     align-items: center; \n"
+                },
+                {
+                    "date": 1671615983325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n //**** Mixins for Layout ***\n \n-@mixin flexD($direction){\n+@mixin flexTool($direction){\n     display: flex;\n     flex-direction: $direction;\n     justify-content: center; \n     align-items: center; \n"
+                },
+                {
+                    "date": 1671616652139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n     flex-direction: $direction;\n     justify-content: center; \n     align-items: center; \n     }\n+    ]\n @mixin img_size{\n     width: 100%;\n     height: 200px;\n     object-fit: cover;\n"
+                },
+                {
+                    "date": 1671616683083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     flex-direction: $direction;\n     justify-content: center; \n     align-items: center; \n     }\n-    ]\n+    \n @mixin img_size{\n     width: 100%;\n     height: 200px;\n     object-fit: cover;\n"
+                },
+                {
+                    "date": 1671617610268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n //**** Mixins for Layout ***\n \n-@mixin flexTool($direction){\n+@mixin flexToo($direction){\n     display: flex;\n     flex-direction: $direction;\n     justify-content: center; \n     align-items: center; \n"
                 }
             ],
             "date": 1671576903536,
             "name": "Commit-0",
-            "content": "\n//**** Mixins for Layout ***\n\n@mixin flexCenter($direction){\n    display: flex;\n    flex-direction: $direction;\n    justify-content: center; \n    align-items: center; \n    }\n@mixin img_size{\n    width: 100%;\n    height: 200px;\n    object-fit: cover;\n    border-radius: 15px 15px 0 0;\n    padding-bottom: 15px;\n}\n@mixin center_title{\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n}\n//**** Mixins Media Querys ***\n\n@mixin media_tablet{\n    @media screen and (min-width:map-get($breakpoints, tablet)) and (max-width:map-get($breakpoints, desktop)){\n        @content;\n    }\n}\n@mixin media_desktop{\n    @media screen and (min-width:map-get($breakpoints, desktop)){\n        @content;\n    }\n}\n\n"
+            "content": "\n//**** Mixins for Layout ***\n\n@mixin flexTool($direction){\n    display: flex;\n    flex-direction: $direction;\n    justify-content: center; \n    align-items: center; \n    }\n@mixin img_size{\n    width: 100%;\n    height: 200px;\n    object-fit: cover;\n    border-radius: 15px 15px 0 0;\n    padding-bottom: 15px;\n}\n@mixin center_title{\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n}\n//**** Mixins Media Querys ***\n\n@mixin media_tablet{\n    @media screen and (min-width:map-get($breakpoints, tablet)) and (max-width:map-get($breakpoints, desktop)){\n        @content;\n    }\n}\n@mixin media_desktop{\n    @media screen and (min-width:map-get($breakpoints, desktop)){\n        @content;\n    }\n}\n\n"
         }
     ]
 }

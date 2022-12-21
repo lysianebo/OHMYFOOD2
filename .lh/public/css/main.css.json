@@ -1,0 +1,22 @@
+{
+    "sourceFile": "public/css/main.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1671616160189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1671617673131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,11 @@\n-/* Error: Mixin doesn't accept a content block.\n- *   ,--> sass/layout/_restaurant-menu.scss\n- * 49|                 @include flexTool(row){\n- *   |                 ^^^^^^^^^^^^^^^^^^^^^^ invocation\n- *   '\n- *   ,--> sass/utils/_mixin.scss\n- * 4 | @mixin flexTool($direction){\n- *   |        ==================== declaration\n- *   '\n- *   sass/layout/_restaurant-menu.scss 49:17  @content\n- *   sass/utils/_mixin.scss 40:9              media-tablet()\n- *   sass/layout/_restaurant-menu.scss 45:9   @import\n- *   sass/main.scss 16:9                      root stylesheet */\n+/* Error: Undefined mixin.\n+ *    ,\n+ * 49 |     @include flexTool(column);\n+ *    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n+ *    '\n+ *   sass/components/_card_menu.scss 49:5  @import\n+ *   sass/main.scss 10:9                   root stylesheet */\n \n body::before {\n   font-family: \"Source Code Pro\", \"SF Mono\", Monaco, Inconsolata, \"Fira Mono\",\n       \"Droid Sans Mono\", monospace, monospace;\n@@ -19,6 +13,6 @@\n   display: block;\n   padding: 1em;\n   margin-bottom: 1em;\n   border-bottom: 2px solid black;\n-  content: \"Error: Mixin doesn't accept a content block.\\a   \\250c \\2500 \\2500 > sass/layout/_restaurant-menu.scss\\a 49\\2502                  @include flexTool(row){\\a   \\2502                  ^^^^^^^^^^^^^^^^^^^^^^ invocation\\a   \\2575 \\a   \\250c \\2500 \\2500 > sass/utils/_mixin.scss\\a 4 \\2502  @mixin flexTool($direction){\\a   \\2502         \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501 \\2501  declaration\\a   \\2575 \\a   sass/layout/_restaurant-menu.scss 49:17  @content\\a   sass/utils/_mixin.scss 40:9              media-tablet()\\a   sass/layout/_restaurant-menu.scss 45:9   @import\\a   sass/main.scss 16:9                      root stylesheet\";\n+  content: \"Error: Undefined mixin.\\a    \\2577 \\a 49 \\2502      @include flexTool(column);\\a    \\2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\a    \\2575 \\a   sass/components/_card_menu.scss 49:5  @import\\a   sass/main.scss 10:9                   root stylesheet\";\n }\n"
+                }
+            ],
+            "date": 1671616160189,
+            "name": "Commit-0",
+            "content": "/* Error: Undefined mixin.\n *    ,\n * 25 |     @include flexTool(row);\n *    |     ^^^^^^^^^^^^^^^^^^^^^^^^\n *    '\n *   sass/components/_buttons.scss 25:5  @import\n *   sass/main.scss 12:9                 root stylesheet */\n\nbody::before {\n  font-family: \"Source Code Pro\", \"SF Mono\", Monaco, Inconsolata, \"Fira Mono\",\n      \"Droid Sans Mono\", monospace, monospace;\n  white-space: pre;\n  display: block;\n  padding: 1em;\n  margin-bottom: 1em;\n  border-bottom: 2px solid black;\n  content: \"Error: Undefined mixin.\\a    \\2577 \\a 25 \\2502      @include flexTool(row);\\a    \\2502      ^^^^^^^^^^^^^^^^^^^^^^^^\\a    \\2575 \\a   sass/components/_buttons.scss 25:5  @import\\a   sass/main.scss 12:9                 root stylesheet\";\n}\n"
+        }
+    ]
+}

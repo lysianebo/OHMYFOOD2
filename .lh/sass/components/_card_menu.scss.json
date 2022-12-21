@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 64,
+            "activePatchIndex": 84,
             "patches": [
                 {
                     "date": 1671581255128,
@@ -171,11 +171,11 @@
                 },
                 {
                     "date": 1671584229286,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,9 @@\n .prix{\n     width: 60px;\n     text-align: right;\n     padding: 0 10px 15px 10px;\n+    \n }\n .validate{\n     @include flexCenter(column);\n     border-top-right-radius: 15px;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,9 @@\n .prix{\n     width: 60px;\n     text-align: right;\n     padding: 0 10px 15px 10px;\n+    \n }\n .validate{\n     @include flexTool(column);\n     border-top-right-radius: 15px;\n"
                 },
                 {
                     "date": 1671584329599,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .course{\n-    width: 96%;\n+    width: ;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px auto;\n@@ -41,9 +41,10 @@\n .prix{\n     width: 60px;\n     text-align: right;\n     padding: 0 10px 15px 10px;\n-    \n+    cursor: pointer;\n+    transition: 1400ms ease-in-out;\n }\n .validate{\n     @include flexCenter(column);\n     border-top-right-radius: 15px;\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .course{\n-    width: 96%;\n+    width: ;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px auto;\n@@ -41,9 +41,10 @@\n .prix{\n     width: 60px;\n     text-align: right;\n     padding: 0 10px 15px 10px;\n-    \n+    cursor: pointer;\n+    transition: 1400ms ease-in-out;\n }\n .validate{\n     @include flexTool(column);\n     border-top-right-radius: 15px;\n"
                 },
                 {
                     "date": 1671584334719,
@@ -264,11 +264,91 @@
                 {
                     "date": 1671588309814,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n         }\n     }\n }\n .dish{\n-    width: 100%;\n+    width: 0%;\n     justify-content: space-between;\n }\n .dish p, h6{\n     padding-left: 15px;\n"
+                },
+                {
+                    "date": 1671613026769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     box-shadow: 4px 4px 5px  darken($colour-gray,12);\n     height: 75px;\n     overflow: hidden;\n     \n-    &:active, &:hover{\n+    &:active, &focus:hover{\n         .fa-check-circle{\n            animation: rotate 1s;\n         }\n         .dish{\n@@ -25,9 +25,9 @@\n         }\n     }\n }\n .dish{\n-    width: 0%;\n+    width: 90%;\n     justify-content: space-between;\n }\n .dish p, h6{\n     padding-left: 15px;\n"
+                },
+                {
+                    "date": 1671613032983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     box-shadow: 4px 4px 5px  darken($colour-gray,12);\n     height: 75px;\n     overflow: hidden;\n     \n-    &:active, &focus:hover{\n+    &:active, &focus, &:hover{\n         .fa-check-circle{\n            animation: rotate 1s;\n         }\n         .dish{\n"
+                },
+                {
+                    "date": 1671613089046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     box-shadow: 4px 4px 5px  darken($colour-gray,12);\n     height: 75px;\n     overflow: hidden;\n     \n-    &:active, &focus, &:hover{\n+    &:active,&:hover{\n         .fa-check-circle{\n            animation: rotate 1s;\n         }\n         .dish{\n"
+                },
+                {
+                    "date": 1671613707478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     box-shadow: 4px 4px 5px  darken($colour-gray,12);\n     height: 75px;\n     overflow: hidden;\n     \n-    &:active,&:hover{\n+    &:active, &:hover{\n         .fa-check-circle{\n            animation: rotate 1s;\n         }\n         .dish{\n@@ -25,9 +25,9 @@\n         }\n     }\n }\n .dish{\n-    width: 90%;\n+    width: 80%;\n     justify-content: space-between;\n }\n .dish p, h6{\n     padding-left: 15px;\n"
+                },
+                {
+                    "date": 1671613719872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n         }\n     }\n }\n .dish{\n-    width: 80%;\n+    width: 90%;\n     justify-content: space-between;\n }\n .dish p, h6{\n     padding-left: 15px;\n"
+                },
+                {
+                    "date": 1671613730883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n         }\n     }\n }\n .dish{\n-    width: 90%;\n+    //width: 90%;\n     justify-content: space-between;\n }\n .dish p, h6{\n     padding-left: 15px;\n"
+                },
+                {
+                    "date": 1671613749856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n            animation: rotate 1s;\n         }\n         .dish{\n             transform: width 2s linear;\n-            min-width: 200px;\n+            //min-width: 200px;\n             padding-right: 10px;\n         }\n         .validate{\n             min-width: 80px;  \n"
+                },
+                {
+                    "date": 1671613786503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n            animation: rotate 1s;\n         }\n         .dish{\n             transform: width 2s linear;\n-            //min-width: 200px;\n+            /min-width: 200px;\n             padding-right: 10px;\n         }\n         .validate{\n             min-width: 80px;  \n"
+                },
+                {
+                    "date": 1671613797419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n            animation: rotate 1s;\n         }\n         .dish{\n             transform: width 2s linear;\n-            /min-width: 200px;\n+            min-width: ;\n             padding-right: 10px;\n         }\n         .validate{\n             min-width: 80px;  \n"
+                },
+                {
+                    "date": 1671613810478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n            animation: rotate 1s;\n         }\n         .dish{\n             transform: width 2s linear;\n-            min-width: ;\n+            width: 80%;\n             padding-right: 10px;\n         }\n         .validate{\n             min-width: 80px;  \n"
+                },
+                {
+                    "date": 1671613816910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n            animation: rotate 1s;\n         }\n         .dish{\n             transform: width 2s linear;\n-            width: 80%;\n+            //width: 80%;\n             padding-right: 10px;\n         }\n         .validate{\n             min-width: 80px;  \n"
+                },
+                {
+                    "date": 1671613846742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n         }\n     }\n }\n .dish{\n-    //width: 90%;\n+    width: 90%;\n     justify-content: space-between;\n }\n .dish p, h6{\n     padding-left: 15px;\n"
+                },
+                {
+                    "date": 1671613855369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n         }\n     }\n }\n .dish{\n-    width: 90%;\n+    width: 100%;\n     justify-content: space-between;\n }\n .dish p, h6{\n     padding-left: 15px;\n"
+                },
+                {
+                    "date": 1671614015807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .course{\n-    width: auto;\n+    width: ;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px 20px;\n"
+                },
+                {
+                    "date": 1671615637120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .course{\n-    width: ;\n+    width: 100%;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px 20px;\n"
+                },
+                {
+                    "date": 1671615654876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .course{\n-    width: 100%;\n+    width: auto;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px 20px;\n"
+                },
+                {
+                    "date": 1671615703936,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .course{\n-    width: auto;\n+    width: 100;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px 20px;\n"
+                },
+                {
+                    "date": 1671615715747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .course{\n-    width: 100;\n+    width: auto;\n     opacity: 0;\n     display: flex;\n     align-items: flex-end;\n     margin: 15px 20px;\n"
+                },
+                {
+                    "date": 1671616051109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n     cursor: pointer;\n     transition: 1400ms ease-in-out;\n }\n .validate{\n-    @include flexTool(column);\n+    @include flex(column);\n     border-top-right-radius: 15px;\n     border-bottom-right-radius: 15px;\n     background-color:$colour-tertiary;\n     width: 0px;\n"
+                },
+                {
+                    "date": 1671616558283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n     cursor: pointer;\n     transition: 1400ms ease-in-out;\n }\n .validate{\n-    @include flex(column);\n+    @include flexTool(column);\n     border-top-right-radius: 15px;\n     border-bottom-right-radius: 15px;\n     background-color:$colour-tertiary;\n     width: 0px;\n"
                 }
             ],
             "date": 1671581255128,
             "name": "Commit-0",
-            "content": ".course{\n    width: 90;\n    opacity: 0;\n    display: flex;\n    align-items: flex-end;\n    margin: 15px auto;\n    border-radius: 15px;\n    background-color: white;\n    box-shadow: 4px 4px 5px  darken($colour-gray,12);\n    height: 75px;\n    overflow: hidden;\n    transition: 200ms ease-in;\n    &:active{\n        .fa-check-circle{\n           animation: rotate 1s;\n        }\n        .dish{\n            transition: width 1s;\n            min-width: 200px;\n            padding-right: 10px;\n        }\n        .validate{\n            width: 80px;  \n            opacity: 1;\n        }\n    }\n}\n.dish{\n    width: 300px;\n    justify-content: space-between;\n}\n.dish p, h6{\n    padding-left: 15px;\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n}\n.dish p{\n    padding-bottom: 15px;\n}\n.prix{\n    width: 60px;\n    text-align: right;\n    padding: 0 10px 15px 10px;\n}\n.validate{\n    @include flexCenter(column);\n    border-top-right-radius: 15px;\n    border-bottom-right-radius: 15px;\n    background-color:$colour-tertiary;\n    width: 0px;\n    opacity: 0;\n    height: 100%;\n    transition: width 1s, opacity 1s;\n    .fa-check-circle{\n        color: white;\n        font-size: 30px;\n    }\n}\n"
+            "content": ".course{\n    width: 90;\n    opacity: 0;\n    display: flex;\n    align-items: flex-end;\n    margin: 15px auto;\n    border-radius: 15px;\n    background-color: white;\n    box-shadow: 4px 4px 5px  darken($colour-gray,12);\n    height: 75px;\n    overflow: hidden;\n    transition: 200ms ease-in;\n    &:active{\n        .fa-check-circle{\n           animation: rotate 1s;\n        }\n        .dish{\n            transition: width 1s;\n            min-width: 200px;\n            padding-right: 10px;\n        }\n        .validate{\n            width: 80px;  \n            opacity: 1;\n        }\n    }\n}\n.dish{\n    width: 300px;\n    justify-content: space-between;\n}\n.dish p, h6{\n    padding-left: 15px;\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n}\n.dish p{\n    padding-bottom: 15px;\n}\n.prix{\n    width: 60px;\n    text-align: right;\n    padding: 0 10px 15px 10px;\n}\n.validate{\n    @include flexTool(column);\n    border-top-right-radius: 15px;\n    border-bottom-right-radius: 15px;\n    background-color:$colour-tertiary;\n    width: 0px;\n    opacity: 0;\n    height: 100%;\n    transition: width 1s, opacity 1s;\n    .fa-check-circle{\n        color: white;\n        font-size: 30px;\n    }\n}\n"
         }
     ]
 }

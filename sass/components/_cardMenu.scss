@@ -16,7 +16,7 @@
         }
         .dish{
             transform: width 2s linear;
-            min-width: 200px;
+            //width: 80%;
             padding-right: 10px;
         }
         .validate{
@@ -26,7 +26,7 @@
     }
 }
 .dish{
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
 }
 .dish p, h6{
@@ -46,7 +46,7 @@ p{
     transition: 1400ms ease-in-out;
 }
 .validate{
-    @include flexCenter(column);
+    @include flexTool(column);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color:$colour-tertiary;

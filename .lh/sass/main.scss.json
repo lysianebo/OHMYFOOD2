@@ -1,0 +1,46 @@
+{
+    "sourceFile": "sass/main.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1671618191431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1671618208659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,13 +6,13 @@\n @import 'utils/variables';\n @import 'utils/keyframes';\n @import 'components/loader';\n @import 'components/card_restaurant';\n-@import 'components/cardenu';\n+@import 'components/cardMenu';\n @import 'components/greenLign';\n @import 'components/buttons';\n @import 'components/icones';\n @import 'components/circle';\n @import 'pages/index';\n-@import 'layout/restaurant-menu';\n+@import 'layout/restaurantenu';\n @import 'layout/footer';\n //@import 'vendors/normalize';\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671618222892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,7 +12,7 @@\n @import 'components/buttons';\n @import 'components/icones';\n @import 'components/circle';\n @import 'pages/index';\n-@import 'layout/restaurantenu';\n+@import 'layout/restaurantMenu';\n @import 'layout/footer';\n //@import 'vendors/normalize';\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671618241938,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,5 @@\n @import 'components/circle';\n @import 'pages/index';\n @import 'layout/restaurantMenu';\n @import 'layout/footer';\n-//@import 'vendors/normalize';\n\\ No newline at end of file\n+@import 'vendors/normalize';\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671618412742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n @import 'base/base';\n @import 'base/fonts';\n @import 'base/typography';\n @import 'utils/maps';\n-@import 'utils/mixin';\n+\n @import 'utils/variables';\n @import 'utils/keyframes';\n @import 'components/loader';\n @import 'components/card_restaurant';\n"
+                },
+                {
+                    "date": 1671618452946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,16 +3,17 @@\n @import 'base/typography';\n @import 'utils/maps';\n \n @import 'utils/variables';\n+@import 'utils/mixin';\n @import 'utils/keyframes';\n @import 'components/loader';\n @import 'components/card_restaurant';\n @import 'components/cardMenu';\n @import 'components/greenLign';\n @import 'components/buttons';\n @import 'components/icones';\n @import 'components/circle';\n-@import 'pages/index';\n+\n @import 'layout/restaurantMenu';\n @import 'layout/footer';\n @import 'vendors/normalize';\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671618476686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n @import 'base/base';\n @import 'base/fonts';\n @import 'base/typography';\n @import 'utils/maps';\n-\n @import 'utils/variables';\n @import 'utils/mixin';\n @import 'utils/keyframes';\n @import 'components/loader';\n@@ -15,5 +14,6 @@\n @import 'components/circle';\n \n @import 'layout/restaurantMenu';\n @import 'layout/footer';\n+@import 'pages/index';\n @import 'vendors/normalize';\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671618550607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,8 @@\n @import 'components/greenLign';\n @import 'components/buttons';\n @import 'components/icones';\n @import 'components/circle';\n-\n @import 'layout/restaurantMenu';\n @import 'layout/footer';\n @import 'pages/index';\n @import 'vendors/normalize';\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1671618191431,
+            "name": "Commit-0",
+            "content": "@import 'base/base';\n@import 'base/fonts';\n@import 'base/typography';\n@import 'utils/maps';\n@import 'utils/mixin';\n@import 'utils/variables';\n@import 'utils/keyframes';\n@import 'components/loader';\n@import 'components/card_restaurant';\n@import 'components/cardenu';\n@import 'components/greenLign';\n@import 'components/buttons';\n@import 'components/icones';\n@import 'components/circle';\n@import 'pages/index';\n@import 'layout/restaurant-menu';\n@import 'layout/footer';\n//@import 'vendors/normalize';"
+        }
+    ]
+}

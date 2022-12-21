@@ -1,0 +1,222 @@
+{
+    "sourceFile": "sass/layout/_restaurantMenu.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 51,
+            "patches": [
+                {
+                    "date": 1671618276929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1671618283393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,8 +45,9 @@\n         @include media_tablet {\n             .menu{\n                 @include flexTool(row);\n                 }\n+                \n             // justify-content: flex-start;\n             // display: grid;\n             // grid-template-columns: repeat(3,1fr);\n             \n"
+                },
+                {
+                    "date": 1671618294251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,10 +44,11 @@\n         }\n         @include media_tablet {\n             .menu{\n                 @include flexTool(row);\n+                \n                 }\n-                \n+            }\n             // justify-content: flex-start;\n             // display: grid;\n             // grid-template-columns: repeat(3,1fr);\n             \n"
+                },
+                {
+                    "date": 1671618300421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n         }\n         @include media_tablet {\n             .menu{\n                 @include flexTool(row);\n-                \n+                width: 50%;\n                 }\n             }\n             // justify-content: flex-start;\n             // display: grid;\n"
+                },
+                {
+                    "date": 1671618604140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+\n header{\n     position: relative;\n     a{\n         position: absolute;\n"
+                },
+                {
+                    "date": 1671618616965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,22 @@\n-\n+@import '..base/base';\n+@import 'base/fonts';\n+@import 'base/typography';\n+@import 'utils/maps';\n+@import 'utils/variables';\n+@import 'utils/mixin';\n+@import 'utils/keyframes';\n+@import 'components/loader';\n+@import 'components/card_restaurant';\n+@import 'components/cardMenu';\n+@import 'components/greenLign';\n+@import 'components/buttons';\n+@import 'components/icones';\n+@import 'components/circle';\n+@import 'layout/restaurantMenu';\n+@import 'layout/footer';\n+@import 'pages/index';\n+@import 'vendors/normalize';\n header{\n     position: relative;\n     a{\n         position: absolute;\n"
+                },
+                {
+                    "date": 1671618629038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@import '..base/base';\n+@import '.base/base';\n @import 'base/fonts';\n @import 'base/typography';\n @import 'utils/maps';\n @import 'utils/variables';\n"
+                },
+                {
+                    "date": 1671618635350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@import '.base/base';\n+@import './base/base';\n @import 'base/fonts';\n @import 'base/typography';\n @import 'utils/maps';\n @import 'utils/variables';\n"
+                },
+                {
+                    "date": 1671618649906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n-@import './base/base';\n-@import 'base/fonts';\n+@import '../base/base';\n+@import '../base/fonts';\n @import 'base/typography';\n @import 'utils/maps';\n @import 'utils/variables';\n @import 'utils/mixin';\n"
+                },
+                {
+                    "date": 1671618655394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n @import '../base/base';\n @import '../base/fonts';\n-@import 'base/typography';\n-@import 'utils/maps';\n+@import '../base/typography';\n+@import '../utils/maps';\n @import 'utils/variables';\n @import 'utils/mixin';\n @import 'utils/keyframes';\n @import 'components/loader';\n"
+                },
+                {
+                    "date": 1671618663391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n @import '../base/base';\n @import '../base/fonts';\n @import '../base/typography';\n @import '../utils/maps';\n-@import 'utils/variables';\n-@import 'utils/mixin';\n+@import '../utils/variables';\n+@import '../utils/mixin';\n @import 'utils/keyframes';\n-@import 'components/loader';\n+@import '../components/loader';\n @import 'components/card_restaurant';\n @import 'components/cardMenu';\n @import 'components/greenLign';\n @import 'components/buttons';\n"
+                },
+                {
+                    "date": 1671618674374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,11 +3,11 @@\n @import '../base/typography';\n @import '../utils/maps';\n @import '../utils/variables';\n @import '../utils/mixin';\n-@import 'utils/keyframes';\n+@import '../utils/keyframes';\n @import '../components/loader';\n-@import 'components/card_restaurant';\n+@import '../components/card_restaurant';\n @import 'components/cardMenu';\n @import 'components/greenLign';\n @import 'components/buttons';\n @import 'components/icones';\n"
+                },
+                {
+                    "date": 1671618680307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,10 @@\n @import '../utils/mixin';\n @import '../utils/keyframes';\n @import '../components/loader';\n @import '../components/card_restaurant';\n-@import 'components/cardMenu';\n-@import 'components/greenLign';\n+@import '../components/cardMenu';\n+@import '../components/greenLign';\n @import 'components/buttons';\n @import 'components/icones';\n @import 'components/circle';\n @import 'layout/restaurantMenu';\n"
+                },
+                {
+                    "date": 1671618686837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n @import '../components/card_restaurant';\n @import '../components/cardMenu';\n @import '../components/greenLign';\n @import 'components/buttons';\n-@import 'components/icones';\n-@import 'components/circle';\n+@import '../components/icones';\n+@import '../components/circle';\n @import 'layout/restaurantMenu';\n @import 'layout/footer';\n @import 'pages/index';\n @import 'vendors/normalize';\n"
+                },
+                {
+                    "date": 1671618693225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,10 @@\n @import 'components/buttons';\n @import '../components/icones';\n @import '../components/circle';\n @import 'layout/restaurantMenu';\n-@import 'layout/footer';\n-@import 'pages/index';\n+@import '../layout/footer';\n+@import '../pages/index';\n @import 'vendors/normalize';\n header{\n     position: relative;\n     a{\n"
+                },
+                {
+                    "date": 1671618707765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,15 +8,15 @@\n @import '../components/loader';\n @import '../components/card_restaurant';\n @import '../components/cardMenu';\n @import '../components/greenLign';\n-@import 'components/buttons';\n+@import '../components/buttons';\n @import '../components/icones';\n @import '../components/circle';\n @import 'layout/restaurantMenu';\n @import '../layout/footer';\n @import '../pages/index';\n-@import 'vendors/normalize';\n+@import '../vendors/normalize';\n header{\n     position: relative;\n     a{\n         position: absolute;\n"
+                },
+                {
+                    "date": 1671618714656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n @import '../components/greenLign';\n @import '../components/buttons';\n @import '../components/icones';\n @import '../components/circle';\n-@import 'layout/restaurantMenu';\n+@import '../layout/restaurantMenu';\n @import '../layout/footer';\n @import '../pages/index';\n @import '../vendors/normalize';\n header{\n"
+                },
+                {
+                    "date": 1671618743796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n @import '../components/greenLign';\n @import '../components/buttons';\n @import '../components/icones';\n @import '../components/circle';\n-@import '../layout/restaurantMenu';\n+//@import '../layout/restaurantMenu';\n @import '../layout/footer';\n @import '../pages/index';\n @import '../vendors/normalize';\n header{\n"
+                },
+                {
+                    "date": 1671618924499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n         }\n         @include media_tablet {\n             .menu{\n                 @include flexTool(row);\n-                width: 50%;\n+                width: 0%;\n                 }\n             }\n             // justify-content: flex-start;\n             // display: grid;\n"
+                },
+                {
+                    "date": 1671618934718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,10 +61,10 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet {\n             .menu{\n-                @include flexTool(row);\n-                width: 0%;\n+                ;\n+                width: 30%;\n                 }\n             }\n             // justify-content: flex-start;\n             // display: grid;\n"
+                },
+                {
+                    "date": 1671618940075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet {\n             .menu{\n-                ;\n+                display: flex;\n                 width: 30%;\n                 }\n             }\n             // justify-content: flex-start;\n"
+                },
+                {
+                    "date": 1671618963399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,8 +62,10 @@\n         }\n         @include media_tablet {\n             .menu{\n                 display: flex;\n+                fle\n+\n                 width: 30%;\n                 }\n             }\n             // justify-content: flex-start;\n"
+                },
+                {
+                    "date": 1671618969969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n         }\n         @include media_tablet {\n             .menu{\n                 display: flex;\n-                fle\n+                flex-direction: r;\n \n                 width: 30%;\n                 }\n             }\n"
+                },
+                {
+                    "date": 1671618989473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,11 +62,10 @@\n         }\n         @include media_tablet {\n             .menu{\n                 display: flex;\n-                flex-direction: r;\n-\n-                width: 30%;\n+                flex-direction: row;\n+width: 30%;\n                 }\n             }\n             // justify-content: flex-start;\n             // display: grid;\n"
+                },
+                {
+                    "date": 1671619008036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,12 +60,12 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet {\n-            .menu{\n+            .menu .course{\n                 display: flex;\n                 flex-direction: row;\n-width: 30%;\n+                width: 30%;\n                 }\n             }\n             // justify-content: flex-start;\n             // display: grid;\n"
+                },
+                {
+                    "date": 1671619016454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet {\n-            .menu .course{\n+            course{\n                 display: flex;\n                 flex-direction: row;\n                 width: 30%;\n                 }\n"
+                },
+                {
+                    "date": 1671619021998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet {\n-            course{\n+            .course{\n                 display: flex;\n                 flex-direction: row;\n                 width: 30%;\n                 }\n"
+                },
+                {
+                    "date": 1671619038411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet {\n-            .course{\n+            .menu{\n                 display: flex;\n                 flex-direction: row;\n                 width: 30%;\n                 }\n"
+                },
+                {
+                    "date": 1671619047283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,8 +63,9 @@\n         @include media_tablet {\n             .menu{\n                 display: flex;\n                 flex-direction: row;\n+                \n                 width: 30%;\n                 }\n             }\n             // justify-content: flex-start;\n"
+                },
+                {
+                    "date": 1671619053652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n         @include media_tablet {\n             .menu{\n                 display: flex;\n                 flex-direction: row;\n-                \n+                .course{\n                 width: 30%;\n                 }\n             }\n             // justify-content: flex-start;\n"
+                },
+                {
+                    "date": 1671619060478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,8 +67,9 @@\n                 .course{\n                 width: 30%;\n                 }\n             }\n+            \n             // justify-content: flex-start;\n             // display: grid;\n             // grid-template-columns: repeat(3,1fr);\n             \n"
+                },
+                {
+                    "date": 1671619077108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,13 +63,13 @@\n         @include media_tablet {\n             .menu{\n                 display: flex;\n                 flex-direction: row;\n-                .course{\n+                menu.course{\n                 width: 30%;\n                 }\n             }\n-            \n+        }\n             // justify-content: flex-start;\n             // display: grid;\n             // grid-template-columns: repeat(3,1fr);\n             \n"
+                },
+                {
+                    "date": 1671619085269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n         @include media_tablet {\n             .menu{\n                 display: flex;\n                 flex-direction: row;\n-                menu.course{\n+                .menu .course{\n                 width: 30%;\n                 }\n             }\n         }\n"
+                },
+                {
+                    "date": 1671619136171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet {\n-            .menu{\n+            \n                 display: flex;\n                 flex-direction: row;\n                 .menu .course{\n                 width: 30%;\n"
+                },
+                {
+                    "date": 1671619142364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n                 .menu .course{\n                 width: 30%;\n                 }\n             }\n-        }\n+        \n             // justify-content: flex-start;\n             // display: grid;\n             // grid-template-columns: repeat(3,1fr);\n             \n"
+                },
+                {
+                    "date": 1671619211522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n             \n                 display: flex;\n                 flex-direction: row;\n                 .menu .course{\n-                width: 30%;\n+                min;\n                 }\n             }\n         \n             // justify-content: flex-start;\n"
+                },
+                {
+                    "date": 1671619217497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n             \n                 display: flex;\n                 flex-direction: row;\n                 .menu .course{\n-                min;\n+                min-width: ;\n                 }\n             }\n         \n             // justify-content: flex-start;\n"
+                },
+                {
+                    "date": 1671619239698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n             \n                 display: flex;\n                 flex-direction: row;\n                 .menu .course{\n-                min-width: ;\n+                width: 335px;\n                 }\n             }\n         \n             // justify-content: flex-start;\n"
+                },
+                {
+                    "date": 1671619277984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n         @include media_tablet {\n             \n                 display: flex;\n                 flex-direction: row;\n-                .menu .course{\n+                .menu .dis{\n                 width: 335px;\n                 }\n             }\n         \n"
+                },
+                {
+                    "date": 1671619294972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n         @include media_tablet {\n             \n                 display: flex;\n                 flex-direction: row;\n-                .menu .dis{\n+                .dish{\n                 width: 335px;\n                 }\n             }\n         \n"
+                },
+                {
+                    "date": 1671619308158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,8 +63,9 @@\n         @include media_tablet {\n             \n                 display: flex;\n                 flex-direction: row;\n+                \n                 .dish{\n                 width: 335px;\n                 }\n             }\n"
+                },
+                {
+                    "date": 1671619317649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n         @include media_tablet {\n             \n                 display: flex;\n                 flex-direction: row;\n-                \n+                flew\n                 .dish{\n                 width: 335px;\n                 }\n             }\n"
+                },
+                {
+                    "date": 1671619325641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n         @include media_tablet {\n             \n                 display: flex;\n                 flex-direction: row;\n-                flew\n+                flex-flow: row wrap;\n                 .dish{\n                 width: 335px;\n                 }\n             }\n"
+                },
+                {
+                    "date": 1671619334727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n         }\n         @include media_tablet {\n             \n                 display: flex;\n-                flex-direction: row;\n+                \n                 flex-flow: row wrap;\n                 .dish{\n                 width: 335px;\n                 }\n"
+                },
+                {
+                    "date": 1671619343446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n                 display: flex;\n                 \n                 flex-flow: row wrap;\n                 .dish{\n-                width: 335px;\n+                width: 33px;\n                 }\n             }\n         \n             // justify-content: flex-start;\n"
+                },
+                {
+                    "date": 1671619348581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n                 display: flex;\n                 \n                 flex-flow: row wrap;\n                 .dish{\n-                width: 33px;\n+                width: 330px;\n                 }\n             }\n         \n             // justify-content: flex-start;\n"
+                },
+                {
+                    "date": 1671619354884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n                 display: flex;\n                 \n                 flex-flow: row wrap;\n                 .dish{\n-                width: 330px;\n+                width: 3px;\n                 }\n             }\n         \n             // justify-content: flex-start;\n"
+                },
+                {
+                    "date": 1671619376174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,10 +64,11 @@\n             \n                 display: flex;\n                 \n                 flex-flow: row wrap;\n+                \n                 .dish{\n-                width: 3px;\n+                width: 300px;\n                 }\n             }\n         \n             // justify-content: flex-start;\n"
+                },
+                {
+                    "date": 1671619382265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n             \n                 display: flex;\n                 \n                 flex-flow: row wrap;\n-                \n+                margin: ;\n                 .dish{\n                 width: 300px;\n                 }\n             }\n"
+                },
+                {
+                    "date": 1671619392411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n             \n                 display: flex;\n                 \n                 flex-flow: row wrap;\n-                margin: ;\n+                ;\n                 .dish{\n                 width: 300px;\n                 }\n             }\n"
+                },
+                {
+                    "date": 1671619399205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,13 +60,13 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet {\n-            \n+            mar\n                 display: flex;\n                 \n                 flex-flow: row wrap;\n-                ;\n+                \n                 .dish{\n                 width: 300px;\n                 }\n             }\n"
+                },
+                {
+                    "date": 1671619417735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,13 +60,14 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet {\n-            mar\n+            margin: 0%;\n                 display: flex;\n                 \n                 flex-flow: row wrap;\n                 \n+                \n                 .dish{\n                 width: 300px;\n                 }\n             }\n"
+                }
+            ],
+            "date": 1671618276929,
+            "name": "Commit-0",
+            "content": "header{\n    position: relative;\n    a{\n        position: absolute;\n        left: 10px;\n    }\n}\n.image img{\n    @include img_size;\n    border-radius: 0px;\n    height: 300px;\n}\n.main2{\n    margin-top: -60px;\n    padding: 20px 0px;\n    background-color: $colour-gray;\n    border-radius: 50px 50px 0 0 ;\n    position: relative;\n    .restaurant_name{\n        font-size: 62%;\n        h1{\n            width: 300px;\n            margin: auto;\n        }\n        .heart .fas{\n            top: 35px;\n            right: 30px;\n        }\n        }\n    } \n    .menu{\n        width: 100%;\n        .entrees .course{\n            animation : loading_menus 3s;\n            animation-fill-mode: forwards;\n        }\n        .plats .course{\n            animation : loading_menus 6s;\n            animation-fill-mode: forwards;\n        }\n        .desserts .course{\n            animation : loading_menus 9s;\n            animation-fill-mode: forwards;\n        }\n        @include media_tablet {\n            .menu{\n                @include flexTool(row);\n                }\n            // justify-content: flex-start;\n            // display: grid;\n            // grid-template-columns: repeat(3,1fr);\n            \n            // .dish{\n            //     min-width: 260px;\n            // }\n            // @include flexTool(row);\n            // justify-content: flex-start;\n            // .course{\n            //     width: 40%;\n            //         .dish{\n            //              width: 85%;\n            //          }\n            // }\n    \n        // @include media_desktop{\n        //     flex-direction: row;\n            // .entrees, .plats, .desserts{\n            //     width: 30%;\n            // .course{\n            //     width: auto;\n            // .dish{\n            //     width: 85%;\n            //     }\n            // }\n        }\n    \n    \n    a.commander{\n        width: 300px;\n        margin: 50px auto;\n    }\n        \n     "
+        }
+    ]
+}
