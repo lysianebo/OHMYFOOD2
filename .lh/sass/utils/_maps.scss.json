@@ -1,0 +1,26 @@
+{
+    "sourceFile": "sass/utils/_maps.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1671585988210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1671585993926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n $breakpoints: (\n-        tablet: 767px,\n+        tablet: 768px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671586010992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n $breakpoints: (\n-        tablet: 76px,\n+        tablet: 769px,\n         desktop: 992px,\n         large: 1200px,\n )\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1671585988210,
+            "name": "Commit-0",
+            "content": "$breakpoints: (\n        tablet: 767px,\n        desktop: 992px,\n        large: 1200px,\n)"
+        }
+    ]
+}

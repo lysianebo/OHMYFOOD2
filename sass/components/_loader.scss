@@ -1,0 +1,33 @@
+html {
+  --i: 100;
+}
+.loader{
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color:rgba(231, 222, 241, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 100ms loader 4s both;
+  span{
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: rotate(calc(18deg * var(--i)));
+    &::before{
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 150px;
+      border-radius: 50%;
+      background: linear-gradient(to right bottom, $colour-primary, 30%, $colour-secondary);
+      animation-delay: 1s;
+      animation: rotate 5s;
+    }
+  }
+}

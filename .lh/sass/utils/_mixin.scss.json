@@ -1,0 +1,26 @@
+{
+    "sourceFile": "sass/utils/_mixin.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1671576903536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1671576941508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n }\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n-    @media screen and (min-width:map-get($breakpoints, tablet)) and (max-width:map-get($breakpoints, desktop)){\n+    @media screen and (min-width:map-get($breakpoints, tablet))){\n         @content;\n     }\n }\n @mixin media_desktop{\n"
+                },
+                {
+                    "date": 1671576968869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n }\n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n-    @media screen and (min-width:map-get($breakpoints, tablet))){\n+    @media screen and (min-width:map-get($breakpoints, tablet)){\n         @content;\n     }\n }\n @mixin media_desktop{\n"
+                }
+            ],
+            "date": 1671576903536,
+            "name": "Commit-0",
+            "content": "\n//**** Mixins for Layout ***\n\n@mixin flexCenter($direction){\n    display: flex;\n    flex-direction: $direction;\n    justify-content: center; \n    align-items: center; \n    }\n@mixin img_size{\n    width: 100%;\n    height: 200px;\n    object-fit: cover;\n    border-radius: 15px 15px 0 0;\n    padding-bottom: 15px;\n}\n@mixin center_title{\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n}\n//**** Mixins Media Querys ***\n\n@mixin media_tablet{\n    @media screen and (min-width:map-get($breakpoints, tablet)) and (max-width:map-get($breakpoints, desktop)){\n        @content;\n    }\n}\n@mixin media_desktop{\n    @media screen and (min-width:map-get($breakpoints, desktop)){\n        @content;\n    }\n}\n\n"
+        }
+    ]
+}

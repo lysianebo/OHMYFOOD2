@@ -1,0 +1,88 @@
+header{
+    position: relative;
+    a{
+        position: absolute;
+        left: 10px;
+    }
+}
+.image img{
+    @include img_size;
+    border-radius: 0px;
+    height: 300px;
+}
+.main2{
+    margin-top: -60px;
+    padding: 20px 0px;
+    background-color: $colour-gray;
+    border-radius: 50px 50px 0 0 ;
+    position: relative;
+    .restaurant_name{
+        font-size: 62%;
+        h1{
+            width: 300px;
+            margin: auto;
+        }
+        .heart .fas{
+            top: 35px;
+            right: 30px;
+            // animation: fill-heart 1s ease-in-out;
+        }
+        }
+    } 
+    .menu{
+        display: flex;
+        flex-direction: column;
+        //justify-content: center;
+        //width: 100%;
+    //     .entrees .plats .desserts{
+    //       width: 30%;
+    //    }
+        .entrees .course{
+            animation : loading_menus 3s;
+            animation-fill-mode: forwards;
+        }
+        .plats .course{
+            animation : loading_menus 6s;
+            animation-fill-mode: forwards;
+        }
+        .desserts .course{
+            animation : loading_menus 9s;
+            animation-fill-mode: forwards;
+        }
+        @include media_desktop{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            .course{
+                width: 90%;
+            }
+            // .dish{
+            //     min-width: 260px;
+            // }
+            // @include flexCenter(row);
+            // justify-content: flex-start;
+            // .course{
+            //     width: 40%;
+            //         .dish{
+            //              width: 85%;
+            //          }
+            // }
+        }
+        // @include media_desktop{
+        //     flex-direction: row;
+            // .entrees, .plats, .desserts{
+            //     width: 30%;
+            // .course{
+            //     width: auto;
+            // .dish{
+            //     width: 85%;
+            //     }
+            // }
+        }
+    
+    
+    a.commander{
+        width: 300px;
+        margin: 50px auto;
+    }
+
+    

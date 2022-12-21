@@ -1,0 +1,30 @@
+{
+    "sourceFile": "sass/base/_typography.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1671572569089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1671572628708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     max-width: 1400px;\n }\n h1{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 50%;\n+    font-size: 350%;\n     font-weight: 700;\n     line-height: 1.1;\n     text-align: center;\n     padding: 20px;\n"
+                },
+                {
+                    "date": 1671572639340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     max-width: 1400px;\n }\n h1{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 350%;\n+    font-size: 250%;\n     font-weight: 700;\n     line-height: 1.1;\n     text-align: center;\n     padding: 20px;\n"
+                },
+                {
+                    "date": 1671573025617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     max-width: 1400px;\n }\n h1{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 250%;\n+    font-size: 50%;\n     font-weight: 700;\n     line-height: 1.1;\n     text-align: center;\n     padding: 20px;\n"
+                }
+            ],
+            "date": 1671572569089,
+            "name": "Commit-0",
+            "content": "\nbody{\n    font-family: Roboto, sans-serif;\n    font-size: 16px;\n    margin:auto;\n    padding: 0;\n    max-width: 1400px;\n}\nh1{\n    font-family: Shrikhand, sans-serif;\n    font-size: 50%;\n    font-weight: 700;\n    line-height: 1.1;\n    text-align: center;\n    padding: 20px;\n}\nh2{\n    padding: 20px;\n    font-size: 150%;\n}\nh3, p{\n    padding-left: 20px;\n}\nh4{\n    font-family: Shrikhand, sans-serif;\n    font-size: 30px;   \n}\nh5{\n    text-transform: uppercase;\n    font-size: 130%;\n    font-weight: 100;\n    padding-left: 15px;\n    padding-bottom: 22px;\n    margin-top: 20px;\n}\nh6{\n    font-size: 100%; \n    font-weight: 600;\n}\nul{\n    list-style-type: none;\n    text-decoration: none;\n}\na{\n    text-decoration: none;\n    color: #000;\n}"
+        }
+    ]
+}

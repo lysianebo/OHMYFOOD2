@@ -1,0 +1,130 @@
+{
+    "sourceFile": "sass/components/_icones.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 28,
+            "patches": [
+                {
+                    "date": 1671578320083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1671578325262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n   right: 10px;\n   top: 0px;\n   font-weight: 100;\n   font-size: 26px;\n-  &:active, {\n+  &:active, &{\n     font-weight: 600;\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n"
+                },
+                {
+                    "date": 1671578721535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,15 +19,15 @@\n   right: 10px;\n   top: 0px;\n   font-weight: 100;\n   font-size: 26px;\n-  &:active, &{\n+  &:active, &:hover{\n     font-weight: 600;\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n-    animation: fill-heart 300ms ease-in; \n+    animation: fill-heart 500ms ease-in; \n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671578760904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n-    animation: fill-heart 500ms ease-in; \n+    animation: fill-heart 500ms; \n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671578793627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n-    animation: fill-heart 500ms; \n+    animation: fill-heart 1500ms; \n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671578808278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,9 @@\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n     animation: fill-heart 1500ms; \n+    \n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671578814014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n     animation: fill-heart 1500ms; \n-    \n+    animation-delay: ;\n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671578822029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n     animation: fill-heart 1500ms; \n-    animation-delay: ;\n+    animation-delay: 0.5ms;\n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671578835409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n     animation: fill-heart 1500ms; \n-    animation-delay: 0.5ms;\n+    animation-delay: 1.5ms;\n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671578868599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n     animation: fill-heart 1500ms; \n-    animation-delay: 1.5ms;\n+    animation-delay: 1.5s;\n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671578919514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n-    animation: fill-heart 1500ms; \n+    animation: fill-heart 500ms; \n     animation-delay: 1.5s;\n   }\n }\n \n"
+                },
+                {
+                    "date": 1671578995840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n     animation: fill-heart 500ms; \n-    animation-delay: 1.5s;\n+    animation-delay: s;\n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671579031258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,15 +20,15 @@\n   top: 0px;\n   font-weight: 100;\n   font-size: 26px;\n   &:active, &:hover{\n-    font-weight: 600;\n+    //font-weight: 600;\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n     animation: fill-heart 500ms; \n-    animation-delay: s;\n+    animation-delay: 5s;\n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671579054632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   top: 0px;\n   font-weight: 100;\n   font-size: 26px;\n   &:active, &:hover{\n-    //font-weight: 600;\n+    font-weight: 600;\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n"
+                },
+                {
+                    "date": 1671579372046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n     animation: fill-heart 500ms; \n-    animation-delay: 5s;\n+   // animation-delay: 5s;\n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671579456754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,8 @@\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n     animation: fill-heart 500ms; \n-   // animation-delay: 5s;\n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671579522754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,10 @@\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n-    animation: fill-heart 500ms; \n+    animation: fill-heart 500ms;\n+     \n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671579533776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n     animation: fill-heart 500ms;\n-     \n+    anima \n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671579543050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n     animation: fill-heart 500ms;\n-    anima \n+    animation-fill-mode: forwards; \n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671580112390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n     animation: fill-heart 500ms;\n-    animation-fill-mode: forwards; \n+    animation-fill-mode: forwards infinate; \n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671580126758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n     animation: fill-heart 500ms;\n-    animation-fill-mode: forwards infinate; \n+    animation-fill-mode: forwards; \n   }\n }\n \n //Arrow-----------------  \n"
+                },
+                {
+                    "date": 1671580166607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n   right: 10px;\n   top: 0px;\n   font-weight: 100;\n   font-size: 26px;\n-  &:active, &:hover{\n+  &:active &:hover{\n     font-weight: 600;\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n"
+                },
+                {
+                    "date": 1671580173545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n   right: 10px;\n   top: 0px;\n   font-weight: 100;\n   font-size: 26px;\n-  &:active &:hover{\n+  &:active, &:hover{\n     font-weight: 600;\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n"
+                },
+                {
+                    "date": 1671580304747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n-    animation: fill-heart 500ms;\n+    animation: fill-heart 00ms;\n     animation-fill-mode: forwards; \n   }\n }\n \n"
+                },
+                {
+                    "date": 1671580331168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n-    animation: fill-heart 00ms;\n+    animation: fill-heart 300ms;\n     animation-fill-mode: forwards; \n   }\n }\n \n"
+                },
+                {
+                    "date": 1671580690867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   top: 0px;\n   font-weight: 100;\n   font-size: 26px;\n   &:active, &:hover{\n-    font-weight: 600;\n+    //font-weight: 600;\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n"
+                },
+                {
+                    "date": 1671580714289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   top: 0px;\n   font-weight: 100;\n   font-size: 26px;\n   &:active, &:hover{\n-    //font-weight: 600;\n+    font-weight: 600;\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n     -webkit-background-clip: text ;\n     -webkit-text-fill-color: transparent;\n"
+                },
+                {
+                    "date": 1671581958118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n   right: 10px;\n   top: 0px;\n   font-weight: 100;\n   font-size: 26px;\n+  cur\n   &:active, &:hover{\n     font-weight: 600;\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n"
+                },
+                {
+                    "date": 1671582004131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n   right: 10px;\n   top: 0px;\n   font-weight: 100;\n   font-size: 26px;\n-  cur\n+  cursor: pointer;\n   &:active, &:hover{\n     font-weight: 600;\n     background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n     background-clip: text ;\n"
+                }
+            ],
+            "date": 1671578320083,
+            "name": "Commit-0",
+            "content": "i{\n    font-size: 24px;\n }\n\n//Icônes fonctionnement-----------------\n.fonctionnement i{\n   color: darken($colour-gray, 30); \n   padding-left: 15px;\n  &.fa-mobile-screen{\n      font-size: 28px;\n    }\n  &:hover{\n    color: $colour-primary;\n   }\n}\n//Heart-----------------\n.heart .fas{\n  position: absolute;\n  right: 10px;\n  top: 0px;\n  font-weight: 100;\n  font-size: 26px;\n  &:active, {\n    font-weight: 600;\n    background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);\n    background-clip: text ;\n    -webkit-background-clip: text ;\n    -webkit-text-fill-color: transparent;\n    animation: fill-heart 300ms ease-in; \n  }\n}\n\n//Arrow-----------------  \nheader .fa-arrow-left-long{\n  color: $colour-black ;\n  font-size: 30px;\n  width: 100px;\n  padding: 5px;\n  text-align: left;\n}\n\n//Check-----------------  \n.fa-check-circle{\n  position: inherit;\n  font-size: 30px;\n  color: white;\n  transform: rotate(-360deg);\n  &:hover{\n  animation: rotate 0.5ms linear;\n  }\n}\n\n\n    \n    \n\n\n\n       \n  \n  \n "
+        }
+    ]
+}

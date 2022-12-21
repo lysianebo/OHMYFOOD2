@@ -1,0 +1,37 @@
+.btn {
+    display: inline-block;
+    margin: auto;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+&.pink {
+    background: linear-gradient(to bottom right, $colour-secondary, 45%, $colour-primary);
+    color: $colour-white;
+    border-radius: 50px;
+    box-shadow: 4px 4px 3px 2px $colour-secondary;
+    &.commander{
+        @include flexCenter(row);
+        margin-bottom: 40px;
+       }
+    &:hover{
+        background: linear-gradient(-170deg, darken($colour-secondary, 5%) 30%, darken($colour-primary, 5%) 100%); 
+        box-shadow: 1px 2px 5px 2px  darken($colour-gray,30%);              
+        }
+       box-shadow: 5px 7px 8px rgb(210, 210, 210);
+    }
+}
+.grey{
+    position: relative;
+    @include flexCenter(row);
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: lighten($colour-gray, 2);
+    color: $colour-black;
+    box-shadow: 2px 3px 5px 4px $colour-gray;
+   &:hover{
+        background-color: lighten($colour-primary, 35);
+        box-shadow: 5px 7px 8px rgb(210, 210, 210);
+    }
+}

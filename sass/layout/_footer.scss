@@ -1,0 +1,25 @@
+footer, footer a{
+   background-color: $colour-black;
+   color: $colour-white;
+   footer, i{
+      width: 40px;
+   }
+   h4, ul{
+      padding: 10px 0 20px 20px;
+      line-height: 1.7;
+         @include media_tablet{
+            display: flex;
+            justify-content: space-between;
+            margin: 0% auto;
+            text-align: center;
+         }
+   }
+   footer, h4{
+         @include media_tablet{
+         width: fit-content;
+      }
+   }
+   ul{
+      padding: 10px 20px;
+   }
+}

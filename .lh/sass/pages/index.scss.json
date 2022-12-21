@@ -1,0 +1,342 @@
+{
+    "sourceFile": "sass/pages/index.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 81,
+            "patches": [
+                {
+                    "date": 1671572701782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1671573143389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,9 @@\n .introduction{\n   @include flexCenter(column);\n   .introduction__titre{\n   width: 90%;\n+  \n   text-align: center;\n   padding-bottom: 40px;     \n   }\n }\n"
+                },
+                {
+                    "date": 1671573169126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,15 +28,14 @@\n .introduction{\n   @include flexCenter(column);\n   .introduction__titre{\n   width: 90%;\n-  \n   text-align: center;\n   padding-bottom: 40px;     \n   }\n }\n .fonctionnement{\n-  width: 100%;\n+  //width: 100%;\n   padding: 30px 0px;\n   @include media_desktop{\n     .grey{\n       width: 30%;\n"
+                },
+                {
+                    "date": 1671573249301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n       @include flexCenter(row);\n     }\n   } \n   .trois-etapes{\n-    background-color: $colour-white;\n+   \n     position: relative;\n     p{\n       width: 300px;\n       padding-left: 40px;\n"
+                },
+                {
+                    "date": 1671573258157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,8 +34,9 @@\n   }\n }\n .fonctionnement{\n   //width: 100%;\n+  \n   padding: 30px 0px;\n   @include media_desktop{\n     .grey{\n       width: 30%;\n"
+                },
+                {
+                    "date": 1671573263861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n   }\n }\n .fonctionnement{\n   //width: 100%;\n-  \n+  background-color: $colour-white;\n   padding: 30px 0px;\n   @include media_desktop{\n     .grey{\n       width: 30%;\n"
+                },
+                {
+                    "date": 1671573280376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n .fonctionnement{\n   //width: 100%;\n   background-color: $colour-white;\n-  padding: 30px 0px;\n+  //padding: 30px 0px;\n   @include media_desktop{\n     .grey{\n       width: 30%;\n     }\n"
+                },
+                {
+                    "date": 1671573613657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,12 +36,9 @@\n .fonctionnement{\n   //width: 100%;\n   background-color: $colour-white;\n   //padding: 30px 0px;\n-  @include media_desktop{\n-    .grey{\n-      width: 30%;\n-    }\n+  \n     .trois-etapes{\n       @include flexCenter(row);\n     }\n   } \n"
+                },
+                {
+                    "date": 1671573626437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,8 +48,9 @@\n     p{\n       width: 300px;\n       padding-left: 40px;\n     }\n+    \n   }\n }\n .liste_restaurants{\n   padding-top: 20px;\n"
+                },
+                {
+                    "date": 1671573676254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,17 +40,18 @@\n   \n     .trois-etapes{\n       @include flexCenter(row);\n     }\n-  } \n-  .trois-etapes{\n-   \n+  \n     position: relative;\n     p{\n       width: 300px;\n       padding-left: 40px;\n     }\n-    \n+    @include media_desktop{\n+      .grey{\n+        width: 30%;\n+      }\n   }\n }\n .liste_restaurants{\n   padding-top: 20px;\n"
+                },
+                {
+                    "date": 1671573687940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,11 +39,9 @@\n   //padding: 30px 0px;\n   \n     .trois-etapes{\n       @include flexCenter(row);\n-    }\n-  \n-    position: relative;\n+    }    position: relative;\n     p{\n       width: 300px;\n       padding-left: 40px;\n     }\n"
+                },
+                {
+                    "date": 1671573695039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n   //padding: 30px 0px;\n   \n     .trois-etapes{\n       @include flexCenter(row);\n-    }    position: relative;\n+    }position: relative;\n     p{\n       width: 300px;\n       padding-left: 40px;\n     }\n"
+                },
+                {
+                    "date": 1671573703027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,10 +39,10 @@\n   //padding: 30px 0px;\n   \n     .trois-etapes{\n       @include flexCenter(row);\n-    }position: relative;\n-    p{\n+      position: relative;\n+      p{\n       width: 300px;\n       padding-left: 40px;\n     }\n     @include media_desktop{\n"
+                },
+                {
+                    "date": 1671573709248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,10 +40,10 @@\n   \n     .trois-etapes{\n       @include flexCenter(row);\n       position: relative;\n-      p{\n-      width: 300px;\n+        p{\n+          width: 300px;\n       padding-left: 40px;\n     }\n     @include media_desktop{\n       .grey{\n"
+                },
+                {
+                    "date": 1671573715384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,10 +42,10 @@\n       @include flexCenter(row);\n       position: relative;\n         p{\n           width: 300px;\n-      padding-left: 40px;\n-    }\n+          padding-left: 40px;\n+        }\n     @include media_desktop{\n       .grey{\n         width: 30%;\n       }\n"
+                },
+                {
+                    "date": 1671573720814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n         p{\n           width: 300px;\n           padding-left: 40px;\n         }\n-    @include media_desktop{\n+      @include media_desktop{\n       .grey{\n         width: 30%;\n       }\n   }\n"
+                },
+                {
+                    "date": 1671573727517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,10 +45,10 @@\n           width: 300px;\n           padding-left: 40px;\n         }\n       @include media_desktop{\n-      .grey{\n-        width: 30%;\n+        .grey{\n+         width: 30%;\n       }\n   }\n }\n .liste_restaurants{\n"
+                },
+                {
+                    "date": 1671573741575,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,12 +46,12 @@\n           padding-left: 40px;\n         }\n       @include media_desktop{\n         .grey{\n-         width: 30%;\n-      }\n+           width: 30%;\n+        }\n   }\n-}\n+}}\n .liste_restaurants{\n   padding-top: 20px;\n   \n   .liste_cards{\n"
+                },
+                {
+                    "date": 1671573756234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,10 @@\n         .grey{\n            width: 30%;\n         }\n   }\n-}}\n+}\n+}\n .liste_restaurants{\n   padding-top: 20px;\n   \n   .liste_cards{\n"
+                },
+                {
+                    "date": 1671573784383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n           padding-left: 40px;\n         }\n       @include media_desktop{\n         .grey{\n-           width: 30%;\n+          // width: 30%;\n         }\n   }\n }\n }\n"
+                },
+                {
+                    "date": 1671573801668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n   background-color: $colour-white;\n   //padding: 30px 0px;\n   \n     .trois-etapes{\n-      @include flexCenter(row);\n+      @include flexCenter(col);\n       position: relative;\n         p{\n           width: 300px;\n           padding-left: 40px;\n"
+                },
+                {
+                    "date": 1671573959541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,17 +38,17 @@\n   background-color: $colour-white;\n   //padding: 30px 0px;\n   \n     .trois-etapes{\n-      @include flexCenter(col);\n+      @include flexCenter(column);\n       position: relative;\n         p{\n           width: 300px;\n           padding-left: 40px;\n         }\n       @include media_desktop{\n         .grey{\n-          // width: 30%;\n+          width: 30%;\n         }\n   }\n }\n }\n"
+                },
+                {
+                    "date": 1671573979526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,9 @@\n   \n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n+      \n         p{\n           width: 300px;\n           padding-left: 40px;\n         }\n"
+                },
+                {
+                    "date": 1671573986978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n   \n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n-      \n+      margin: 0 ;\n         p{\n           width: 300px;\n           padding-left: 40px;\n         }\n"
+                },
+                {
+                    "date": 1671574038781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,11 +40,11 @@\n   \n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n-      margin: 0 ;\n+      margin: 0 50px;\n         p{\n-          width: 300px;\n+          width: ;\n           padding-left: 40px;\n         }\n       @include media_desktop{\n         .grey{\n"
+                },
+                {
+                    "date": 1671574058073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,11 +40,11 @@\n   \n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n-      margin: 0 50px;\n+      //margin: 0 50px;\n         p{\n-          width: ;\n+          width: 90px;\n           padding-left: 40px;\n         }\n       @include media_desktop{\n         .grey{\n"
+                },
+                {
+                    "date": 1671574084491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n   padding-bottom: 40px;     \n   }\n }\n .fonctionnement{\n-  //width: 100%;\n+  width: 100%;\n   background-color: $colour-white;\n   //padding: 30px 0px;\n   \n     .trois-etapes{\n"
+                },
+                {
+                    "date": 1671574098671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n       @include flexCenter(column);\n       position: relative;\n       //margin: 0 50px;\n         p{\n-          width: 90px;\n+          width: 90;\n           padding-left: 40px;\n         }\n       @include media_desktop{\n         .grey{\n"
+                },
+                {
+                    "date": 1671574156105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,11 +40,12 @@\n   \n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n-      //margin: 0 50px;\n+      //margin: 0 50px\n+      ;\n         p{\n-          width: 90;\n+          width: 90%;\n           padding-left: 40px;\n         }\n       @include media_desktop{\n         .grey{\n"
+                },
+                {
+                    "date": 1671574162468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n       //margin: 0 50px\n-      ;\n+      .grey{};\n         p{\n           width: 90%;\n           padding-left: 40px;\n         }\n"
+                },
+                {
+                    "date": 1671574175572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,17 +41,18 @@\n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n       //margin: 0 50px\n-      .grey{};\n+      .grey{;\n         p{\n           width: 90%;\n           padding-left: 40px;\n         }\n       @include media_desktop{\n         .grey{\n           width: 30%;\n         }\n+        \n   }\n }\n }\n .liste_restaurants{\n"
+                },
+                {
+                    "date": 1671574192251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n       @include media_desktop{\n         .grey{\n           width: 30%;\n         }\n-        \n+\n   }\n }\n }\n .liste_restaurants{\n@@ -76,6 +76,7 @@\n         }\n     }\n   }\n }\n+\n   \n     \n"
+                },
+                {
+                    "date": 1671574240263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n       position: relative;\n       //margin: 0 50px\n       .grey{;\n         p{\n-          width: 90%;\n+          //width: 90%;\n           padding-left: 40px;\n         }\n       @include media_desktop{\n         .grey{\n@@ -76,7 +76,7 @@\n         }\n     }\n   }\n }\n-\n+}\n   \n     \n"
+                },
+                {
+                    "date": 1671574267435,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n   padding-bottom: 40px;     \n   }\n }\n .fonctionnement{\n-  width: 100%;\n+  //width: 100%;\n   background-color: $colour-white;\n   //padding: 30px 0px;\n   \n     .trois-etapes{\n"
+                },
+                {
+                    "date": 1671574290816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n       position: relative;\n       //margin: 0 50px\n       .grey{;\n         p{\n-          //width: 90%;\n+      width: 300px;\n           padding-left: 40px;\n         }\n       @include media_desktop{\n         .grey{\n"
+                },
+                {
+                    "date": 1671574329430,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n       //margin: 0 50px\n-      .grey{;\n+      .grey{\n         p{\n       width: 300px;\n           padding-left: 40px;\n         }\n"
+                },
+                {
+                    "date": 1671574350328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n   \n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n-      //margin: 0 50px\n+      /margin: 0 50px\n       .grey{\n         p{\n       width: 300px;\n           padding-left: 40px;\n"
+                },
+                {
+                    "date": 1671574358062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n   \n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n-      /margin: 0 50px\n+      margin: 0 px\n       .grey{\n         p{\n       width: 300px;\n           padding-left: 40px;\n"
+                },
+                {
+                    "date": 1671574363800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n   \n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n-      margin: 0 px\n+      margin: 0 20%\n       .grey{\n         p{\n       width: 300px;\n           padding-left: 40px;\n"
+                },
+                {
+                    "date": 1671574386079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n   \n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n-      margin: 0 20%\n+      margin: 0 10%;\n       .grey{\n         p{\n       width: 300px;\n           padding-left: 40px;\n"
+                },
+                {
+                    "date": 1671574419404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n   \n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n-      margin: 0 10%;\n+      margin: 0 20p;\n       .grey{\n         p{\n       width: 300px;\n           padding-left: 40px;\n"
+                },
+                {
+                    "date": 1671574446223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,10 +40,11 @@\n   \n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n-      margin: 0 20p;\n+      margin: 0 20px;\n       .grey{\n+        \n         p{\n       width: 300px;\n           padding-left: 40px;\n         }\n"
+                },
+                {
+                    "date": 1671574452634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n       @include flexCenter(column);\n       position: relative;\n       margin: 0 20px;\n       .grey{\n-        \n+        w\n         p{\n       width: 300px;\n           padding-left: 40px;\n         }\n"
+                },
+                {
+                    "date": 1671574460064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n       @include flexCenter(column);\n       position: relative;\n       margin: 0 20px;\n       .grey{\n-        w\n+        width: auto;\n         p{\n       width: 300px;\n           padding-left: 40px;\n         }\n"
+                },
+                {
+                    "date": 1671574478409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n       @include flexCenter(column);\n       position: relative;\n       margin: 0 20px;\n       .grey{\n-        width: auto;\n+        width: ;\n         p{\n       width: 300px;\n           padding-left: 40px;\n         }\n"
+                },
+                {
+                    "date": 1671574537267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n       @include flexCenter(column);\n       position: relative;\n       margin: 0 20px;\n       .grey{\n-        width: ;\n+        width: 100%;\n         p{\n       width: 300px;\n           padding-left: 40px;\n         }\n"
+                },
+                {
+                    "date": 1671574594350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,8 @@\n   padding-bottom: 40px;     \n   }\n }\n .fonctionnement{\n-  //width: 100%;\n   background-color: $colour-white;\n   //padding: 30px 0px;\n   \n     .trois-etapes{\n"
+                },
+                {
+                    "date": 1671574628518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,10 +34,8 @@\n   }\n }\n .fonctionnement{\n   background-color: $colour-white;\n-  //padding: 30px 0px;\n-  \n     .trois-etapes{\n       @include flexCenter(column);\n       position: relative;\n       margin: 0 20px;\n@@ -46,12 +44,9 @@\n         p{\n       width: 300px;\n           padding-left: 40px;\n         }\n-      @include media_desktop{\n-        .grey{\n-          width: 30%;\n-        }\n+      \n \n   }\n }\n }\n"
+                },
+                {
+                    "date": 1671574638607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,9 @@\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n+        \n         p{\n       width: 300px;\n           padding-left: 40px;\n         }\n"
+                },
+                {
+                    "date": 1671574662484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,14 +35,17 @@\n }\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n-      @include flexCenter(column);\n+      dis;\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n-        \n+        @include media_desktop{\n+          .grey{\n+            width: 30%;\n+          }\n         p{\n       width: 300px;\n           padding-left: 40px;\n         }\n"
+                },
+                {
+                    "date": 1671574684887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n-      dis;\n+      \n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n"
+                },
+                {
+                    "date": 1671574691716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,9 @@\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n+        display: flex;\n         @include media_desktop{\n           .grey{\n             width: 30%;\n           }\n"
+                },
+                {
+                    "date": 1671574712581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n-      \n+      @\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n"
+                },
+                {
+                    "date": 1671574719155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n-      @\n+      @include f\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n"
+                },
+                {
+                    "date": 1671574725160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n-      @include f\n+      @include flexCenter(col)\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n"
+                },
+                {
+                    "date": 1671574732872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,10 @@\n }\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n-      @include flexCenter(col)\n+      @include flexCenter(column);\n+      \n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n"
+                },
+                {
+                    "date": 1671574742322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n       @include flexCenter(column);\n-      \n+      justify-content: flex-start;\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n"
+                },
+                {
+                    "date": 1671574750399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n       @include flexCenter(column);\n-      justify-content: flex-start;\n+      justify-content: ;\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n"
+                },
+                {
+                    "date": 1671574760163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n       @include flexCenter(column);\n-      justify-content: ;\n+      justify-content: space-around;\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n"
+                },
+                {
+                    "date": 1671574765366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n       @include flexCenter(column);\n-      justify-content: space-around;\n+      justify-content: space-;\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n"
+                },
+                {
+                    "date": 1671574772528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n       @include flexCenter(column);\n-      justify-content: space-;\n+      justify-content: f;\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n"
+                },
+                {
+                    "date": 1671574834292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n       @include flexCenter(column);\n-      justify-content: f;\n+      justify-content: flex-start;\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n@@ -47,9 +47,9 @@\n           .grey{\n             width: 30%;\n           }\n         p{\n-      width: 300px;\n+      width: 00px;\n           padding-left: 40px;\n         }\n       \n \n"
+                },
+                {
+                    "date": 1671574874538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n-      @include flexCenter(column);\n+     < @include flexCenter(column);\n       justify-content: flex-start;\n       position: relative;\n       margin: 0 20px;\n       .grey{\n@@ -47,9 +47,9 @@\n           .grey{\n             width: 30%;\n           }\n         p{\n-      width: 00px;\n+      width: 400px;\n           padding-left: 40px;\n         }\n       \n \n"
+                },
+                {
+                    "date": 1671574887889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,10 +35,10 @@\n }\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n-     < @include flexCenter(column);\n-      justify-content: flex-start;\n+     // @include flexCenter(column);\n+      //justify-content: flex-start;\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n"
+                },
+                {
+                    "date": 1671574897053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n-        display: flex;\n+        //display: flex;\n         @include media_desktop{\n           .grey{\n             width: 30%;\n           }\n"
+                },
+                {
+                    "date": 1671574910888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,8 +35,9 @@\n }\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n+      b\n      // @include flexCenter(column);\n       //justify-content: flex-start;\n       position: relative;\n       margin: 0 20px;\n"
+                },
+                {
+                    "date": 1671574916106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n-      b\n+      background-color: red;\n      // @include flexCenter(column);\n       //justify-content: flex-start;\n       position: relative;\n       margin: 0 20px;\n"
+                },
+                {
+                    "date": 1671574925468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n-      background-color: red;\n+      b;\n      // @include flexCenter(column);\n       //justify-content: flex-start;\n       position: relative;\n       margin: 0 20px;\n"
+                },
+                {
+                    "date": 1671574937251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,8 @@\n }\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n-      b;\n      // @include flexCenter(column);\n       //justify-content: flex-start;\n       position: relative;\n       margin: 0 20px;\n"
+                },
+                {
+                    "date": 1671575100881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n   background-color: $colour-gray;\n   padding-bottom: 40px;\n }\n .introduction{\n-  @include flexCenter(column);\n+  //@include flexCenter(column);\n   .introduction__titre{\n   width: 90%;\n   text-align: center;\n   padding-bottom: 40px;     \n"
+                },
+                {
+                    "date": 1671575128961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,9 @@\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n+        \n         //display: flex;\n         @include media_desktop{\n           .grey{\n             width: 30%;\n"
+                },
+                {
+                    "date": 1671575141870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n-        \n+        align-content: ;\n         //display: flex;\n         @include media_desktop{\n           .grey{\n             width: 30%;\n"
+                },
+                {
+                    "date": 1671575150908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n-        align-content: ;\n+        align-content: le;\n         //display: flex;\n         @include media_desktop{\n           .grey{\n             width: 30%;\n"
+                },
+                {
+                    "date": 1671575161594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 100%;\n-        align-content: le;\n+        ;\n         //display: flex;\n         @include media_desktop{\n           .grey{\n             width: 30%;\n"
+                },
+                {
+                    "date": 1671575170784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,10 +40,10 @@\n       //justify-content: flex-start;\n       position: relative;\n       margin: 0 20px;\n       .grey{\n-        width: 100%;\n-        ;\n+        width: 0%;\n+        \n         //display: flex;\n         @include media_desktop{\n           .grey{\n             width: 30%;\n"
+                },
+                {
+                    "date": 1671575222895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n       //justify-content: flex-start;\n       position: relative;\n       margin: 0 20px;\n       .grey{\n-        width: 0%;\n+        width: 85%;\n         \n         //display: flex;\n         @include media_desktop{\n           .grey{\n"
+                },
+                {
+                    "date": 1671575271638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n       //justify-content: flex-start;\n       position: relative;\n       margin: 0 20px;\n       .grey{\n-        width: 85%;\n+        width: 300px;\n         \n         //display: flex;\n         @include media_desktop{\n           .grey{\n"
+                },
+                {
+                    "date": 1671575412250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n   background-color: $colour-gray;\n   padding-bottom: 40px;\n }\n .introduction{\n-  //@include flexCenter(column);\n+  @include flexCenter(column);\n   .introduction__titre{\n   width: 90%;\n   text-align: center;\n   padding-bottom: 40px;     \n"
+                },
+                {
+                    "date": 1671575465669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n-     // @include flexCenter(column);\n+     @include flexCenter(column);\n       //justify-content: flex-start;\n       position: relative;\n       margin: 0 20px;\n       .grey{\n"
+                },
+                {
+                    "date": 1671575522642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n      @include flexCenter(column);\n-      //justify-content: flex-start;\n+     \n       position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 300px;\n"
+                },
+                {
+                    "date": 1671575529415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n   background-color: $colour-white;\n     .trois-etapes{\n      @include flexCenter(column);\n      \n-      position: relative;\n+     // position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 300px;\n         \n"
+                },
+                {
+                    "date": 1671575538816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n .fonctionnement{\n   background-color: $colour-white;\n     .trois-etapes{\n      @include flexCenter(column);\n-      position: relative;\n+     position: relative;\n       margin: 0 20px;\n       .grey{\n         width: 300px;\n         \n"
+                }
+            ],
+            "date": 1671572701782,
+            "name": "Commit-0",
+            "content": "main{\n  \n  form{\n    @include flexCenter(row);\n    height: 55px;\n    background-color: darken($colour-gray, 5);\n    border: none;\n    box-shadow: inset 0px 10px 5px -6px darken($colour-gray, 20);\n    margin: auto;\n    margin-bottom: 0;\n    \n  }       \n  input, label{\n    border: none;\n    background-color: transparent;\n    font-size: large;\n    font-weight: 600;\n    padding: 10px;\n  }\n  input{\n    width: 170px;\n  }\n}\n.introduction, .liste_restaurants{\n  background-color: $colour-gray;\n  padding-bottom: 40px;\n}\n.introduction{\n  @include flexCenter(column);\n  .introduction__titre{\n  width: 90%;\n  text-align: center;\n  padding-bottom: 40px;     \n  }\n}\n.fonctionnement{\n  width: 100%;\n  padding: 30px 0px;\n  @include media_desktop{\n    .grey{\n      width: 30%;\n    }\n    .trois-etapes{\n      @include flexCenter(row);\n    }\n  } \n  .trois-etapes{\n    background-color: $colour-white;\n    position: relative;\n    p{\n      width: 300px;\n      padding-left: 40px;\n    }\n  }\n}\n.liste_restaurants{\n  padding-top: 20px;\n  \n  .liste_cards{\n    display: grid;\n    grid-template-columns: 1fr;\n    @include media_tablet{\n      grid-template-columns: repeat(2,1fr);\n      h2{\n        text-align: center;\n        }\n    }\n    @include media_desktop{\n      grid-template-columns: repeat(4,1fr);\n      padding-bottom: 20px;\n      font-size: 80%;\n      h2{\n        text-align: center;\n        }\n    }\n  }\n}\n  \n    \n"
+        }
+    ]
+}

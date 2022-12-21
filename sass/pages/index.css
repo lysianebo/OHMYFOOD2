@@ -1,0 +1,119 @@
+.loader {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(231, 222, 241, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 100ms loader 4s both;
+}
+.loader span {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: rotate(calc(18deg * var(--i)));
+}
+.loader span::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(to right bottom, #9356DC, 30%, #FF79DA);
+  animation-delay: 1s;
+  animation: rotate 5s;
+}
+
+main form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background-color: #e6e6e6;
+  border: none;
+  box-shadow: inset 0px 10px 5px -6px silver;
+  margin: auto;
+  margin-bottom: 0;
+}
+main input, main label {
+  border: none;
+  background-color: transparent;
+  font-size: large;
+  font-weight: 600;
+  padding: 10px;
+}
+main input {
+  width: 170px;
+}
+
+.introduction, .liste_restaurants {
+  background-color: #f3f3f3;
+  padding-bottom: 40px;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.introduction .introduction__titre {
+  width: 90%;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.fonctionnement {
+  padding: 30px 0px;
+}
+@media screen and (min-width: 767px) {
+  .fonctionnement {
+    margin: 2% 2%;
+  }
+  .fonctionnement h2 {
+    text-align: center;
+    margin: auto;
+  }
+  .fonctionnement .grey {
+    width: 30%;
+  }
+}
+.fonctionnement .trois-etapes {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  position: relative;
+}
+.fonctionnement .trois-etapes p {
+  width: 300px;
+  padding-left: 40px;
+}
+
+.liste_restaurants {
+  padding-top: 20px;
+}
+.liste_restaurants .liste_cards {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 767px) {
+  .liste_restaurants .liste_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 992px) {
+  .liste_restaurants .liste_cards {
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 20px;
+    font-size: 80%;
+  }
+}/*# sourceMappingURL=index.css.map */

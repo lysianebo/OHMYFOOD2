@@ -1,0 +1,61 @@
+.course{
+    width: auto;
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    margin: 15px 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 4px 4px 5px  darken($colour-gray,12);
+    height: 75px;
+    overflow: hidden;
+    
+    &:active, &:hover{
+        .fa-check-circle{
+           animation: rotate 1s;
+        }
+        .dish{
+            transform: width 2s linear;
+            min-width: 200px;
+            padding-right: 10px;
+        }
+        .validate{
+            min-width: 80px;  
+            opacity: 1;
+        }
+    }
+}
+.dish{
+    width: 90%;
+    justify-content: space-between;
+}
+.dish p, h6{
+    padding-left: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+p{
+    padding-bottom: 15px;
+}
+.prix{
+    //width: 100%;
+    text-align: right;
+    padding: 0 10px 15px 10px;
+    cursor: pointer;
+    transition: 1400ms ease-in-out;
+}
+.validate{
+    @include flexCenter(column);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color:$colour-tertiary;
+    width: 0px;
+    opacity: 0;
+    height: 100%;
+    transition: width 1s, opacity 1s;
+    .fa-check-circle{
+        color: white;
+        font-size: 30px;
+    }
+}

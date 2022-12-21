@@ -1,0 +1,64 @@
+i{
+    font-size: 24px;
+ }
+
+//Icônes fonctionnement-----------------
+.fonctionnement i{
+   color: darken($colour-gray, 30); 
+   padding-left: 15px;
+  &.fa-mobile-screen{
+      font-size: 28px;
+    }
+  &:hover{
+    color: $colour-primary;
+   }
+}
+//Heart-----------------
+.heart .fas{
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  font-weight: 100;
+  font-size: 26px;
+  cursor: pointer;
+  &:active, &:hover{
+    font-weight: 600;
+    background: linear-gradient(360deg, $colour-primary 30%,$colour-secondary 70%);
+    background-clip: text ;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    animation: fill-heart 300ms;
+    animation-fill-mode: forwards; 
+  }
+}
+
+//Arrow-----------------  
+header .fa-arrow-left-long{
+  color: $colour-black ;
+  font-size: 30px;
+  width: 100px;
+  padding: 5px;
+  text-align: left;
+}
+
+//Check-----------------  
+.fa-check-circle{
+  position: inherit;
+  font-size: 30px;
+  color: white;
+  transform: rotate(-360deg);
+  &:hover{
+  animation: rotate 0.5ms linear;
+  }
+}
+
+
+    
+    
+
+
+
+       
+  
+  
+ 

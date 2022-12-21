@@ -1,0 +1,78 @@
+main{
+  form{
+    @include flexCenter(row);
+    height: 55px;
+    background-color: darken($colour-gray, 5);
+    border: none;
+    box-shadow: inset 0px 10px 5px -6px darken($colour-gray, 20);
+    margin: auto;
+    margin-bottom: 0;
+    
+    input, label{
+    border: none;
+    background-color: transparent;
+    font-size: large;
+    font-weight: 600;
+    padding: 10px;
+    }
+    input{
+    width: 170px;
+    }
+  }
+  .introduction, .liste_restaurants{
+    background-color: $colour-gray;
+    padding-bottom: 40px;
+  }
+  .introduction{
+    @include flexCenter(column);
+    .introduction__titre{
+      width: 90%;
+      text-align: center;
+      padding-bottom: 40px;     
+    }
+  }
+  .fonctionnement{
+    background-color: $colour-white;
+    .trois-etapes{
+      @include flexCenter(column);
+      position: relative;
+      margin: 0 20px;
+        .grey{
+          width: 90%;
+          p{
+            width: 500px;
+            padding-left: 20px;
+          }
+        }
+      @include media_tablet{
+        @include flexCenter(row);
+        .grey{
+          width: 30%;
+        }
+      }
+    }
+  }
+  .liste_restaurants{
+    padding-top: 20px;
+    .liste_cards{
+      display: grid;
+      grid-template-columns: 1fr;
+      @include media_tablet{
+        grid-template-columns: repeat(2,1fr);
+        h2{
+          text-align: center;
+          }
+      }
+      @include media_desktop{
+        grid-template-columns: repeat(4,1fr);
+        padding-bottom: 20px;
+        font-size: 90%;
+        h2{
+          text-align: center;
+          }
+      }
+    }
+  }
+}
+  
+    
