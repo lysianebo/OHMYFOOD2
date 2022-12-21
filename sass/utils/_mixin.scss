@@ -26,12 +26,6 @@
     font-size: 88%;
     }
 }
-    @mixin course(){
-        $width : 85%;   
-    @if $width > 84%{
-        font-size: 88%;
-        }
-    }
 
 //**** Mixins Media Querys ***
 

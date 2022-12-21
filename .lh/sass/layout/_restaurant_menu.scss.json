@@ -1,0 +1,98 @@
+{
+    "sourceFile": "sass/layout/_restaurant_menu.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 20,
+            "patches": [
+                {
+                    "date": 1671623020761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1671623032321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n @import '../utils/mixin';\n @import '../utils/keyframes';\n @import '../components/loader';\n @import '../components/card_restaurant';\n-@import '../components/cardMenu';\n+@import '../components/cardenu';\n @import '../components/greenLign';\n @import '../components/buttons';\n @import '../components/icones';\n @import '../components/circle';\n"
+                },
+                {
+                    "date": 1671623048210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,14 +6,14 @@\n @import '../utils/mixin';\n @import '../utils/keyframes';\n @import '../components/loader';\n @import '../components/card_restaurant';\n-@import '../components/cardenu';\n+@import '../components/card_menu';\n @import '../components/greenLign';\n @import '../components/buttons';\n @import '../components/icones';\n @import '../components/circle';\n-//@import '../layout/restaurantMenu';\n+//@import '../layout/restaurantenu';\n @import '../layout/footer';\n @import '../pages/index';\n @import '../vendors/normalize';\n header{\n"
+                },
+                {
+                    "date": 1671624351796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n @import '../components/greenLign';\n @import '../components/buttons';\n @import '../components/icones';\n @import '../components/circle';\n-//@import '../layout/restaurantenu';\n+@import '../layout/restaurant_menu';\n @import '../layout/footer';\n @import '../pages/index';\n @import '../vendors/normalize';\n header{\n"
+                },
+                {
+                    "date": 1671624513580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,22 +1,22 @@\n-@import '../base/base';\n-@import '../base/fonts';\n-@import '../base/typography';\n-@import '../utils/maps';\n-@import '../utils/variables';\n-@import '../utils/mixin';\n-@import '../utils/keyframes';\n-@import '../components/loader';\n-@import '../components/card_restaurant';\n-@import '../components/card_menu';\n-@import '../components/greenLign';\n-@import '../components/buttons';\n-@import '../components/icones';\n-@import '../components/circle';\n-@import '../layout/restaurant_menu';\n-@import '../layout/footer';\n-@import '../pages/index';\n-@import '../vendors/normalize';\n+// @import '../base/base';\n+// @import '../base/fonts';\n+// @import '../base/typography';\n+// @import '../utils/maps';\n+// @import '../utils/variables';\n+// @import '../utils/mixin';\n+// @import '../utils/keyframes';\n+// @import '../components/loader';\n+// @import '../components/card_restaurant';\n+// @import '../components/card_menu';\n+// @import '../components/greenLign';\n+// @import '../components/buttons';\n+// @import '../components/icones';\n+// @import '../components/circle';\n+// @import '../layout/restaurant_menu';\n+// @import '../layout/footer';\n+// @import '../pages/index';\n+// @import '../vendors/normalize';\n header{\n     position: relative;\n     a{\n         position: absolute;\n"
+                },
+                {
+                    "date": 1671625603804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,22 +1,5 @@\n-// @import '../base/base';\n-// @import '../base/fonts';\n-// @import '../base/typography';\n-// @import '../utils/maps';\n-// @import '../utils/variables';\n-// @import '../utils/mixin';\n-// @import '../utils/keyframes';\n-// @import '../components/loader';\n-// @import '../components/card_restaurant';\n-// @import '../components/card_menu';\n-// @import '../components/greenLign';\n-// @import '../components/buttons';\n-// @import '../components/icones';\n-// @import '../components/circle';\n-// @import '../layout/restaurant_menu';\n-// @import '../layout/footer';\n-// @import '../pages/index';\n-// @import '../vendors/normalize';\n+\n header{\n     position: relative;\n     a{\n         position: absolute;\n"
+                },
+                {
+                    "date": 1671625618305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-\n header{\n     position: relative;\n     a{\n         position: absolute;\n@@ -54,9 +53,8 @@\n                 .dish{\n                 width: 300px;\n                 }\n             }\n-        \n         }\n     \n     \n     a.commander{\n"
+                },
+                {
+                    "date": 1671626253497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        width: 100%;\n+       // width: 100%;\n         @include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n"
+                },
+                {
+                    "date": 1671626291672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,8 @@\n         }\n         @include media_tablet {\n             margin: 0%;\n                 display: flex;\n-                \n                 flex-flow: row wrap;\n                 justify-content: center;\n                 \n                 .dish{\n"
+                },
+                {
+                    "date": 1671626298859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,8 @@\n             margin: 0%;\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n-                \n                 .dish{\n                 width: 300px;\n                 }\n             }\n"
+                },
+                {
+                    "date": 1671626325824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,8 @@\n         }\n         }\n     } \n     .menu{\n-       // width: 100%;\n         @include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n"
+                },
+                {
+                    "date": 1671626348785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet {\n-            margin: 0%;\n+            //margin: 0%;\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n                 .dish{\n"
+                },
+                {
+                    "date": 1671626371727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,8 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet {\n-            //margin: 0%;\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n                 .dish{\n"
+                },
+                {
+                    "date": 1671626394342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n                 .dish{\n-                width: 300px;\n+                //width: 300px;\n                 }\n             }\n         }\n     \n"
+                },
+                {
+                    "date": 1671626564901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     background-color: $colour-gray;\n     border-radius: 50px 50px 0 0 ;\n     position: relative;\n     .restaurant_name{\n-        font-size: 62%;\n+        font-size: 6%;\n         h1{\n             width: 300px;\n             margin: auto;\n         }\n"
+                },
+                {
+                    "date": 1671626577676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     background-color: $colour-gray;\n     border-radius: 50px 50px 0 0 ;\n     position: relative;\n     .restaurant_name{\n-        font-size: 6%;\n+        font-size: 64%;\n         h1{\n             width: 300px;\n             margin: auto;\n         }\n"
+                },
+                {
+                    "date": 1671626590360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     background-color: $colour-gray;\n     border-radius: 50px 50px 0 0 ;\n     position: relative;\n     .restaurant_name{\n-        font-size: 64%;\n+        font-size: 6%;\n         h1{\n             width: 300px;\n             margin: auto;\n         }\n"
+                },
+                {
+                    "date": 1671626636289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     background-color: $colour-gray;\n     border-radius: 50px 50px 0 0 ;\n     position: relative;\n     .restaurant_name{\n-        font-size: 6%;\n+        font-size: 68%;\n         h1{\n             width: 300px;\n             margin: auto;\n         }\n@@ -45,9 +45,9 @@\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n-                .dish{\n+                //.dish{\n                 //width: 300px;\n                 }\n             }\n         }\n"
+                },
+                {
+                    "date": 1671626646980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n                 //.dish{\n                 //width: 300px;\n                 }\n             }\n-        }\n+        \n     \n     \n     a.commander{\n         width: 300px;\n"
+                },
+                {
+                    "date": 1671628209593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n-                //.dish{\n+                .dish{\n                 //width: 300px;\n                 }\n             }\n         \n"
+                },
+                {
+                    "date": 1671629332369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n                 .dish{\n-                //width: 300px;\n+                width: 300px;\n                 }\n             }\n         \n     \n@@ -57,5 +57,5 @@\n         width: 300px;\n         margin: 50px auto;\n     }\n         \n-     \n\\ No newline at end of file\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1671623020761,
+            "name": "Commit-0",
+            "content": "@import '../base/base';\n@import '../base/fonts';\n@import '../base/typography';\n@import '../utils/maps';\n@import '../utils/variables';\n@import '../utils/mixin';\n@import '../utils/keyframes';\n@import '../components/loader';\n@import '../components/card_restaurant';\n@import '../components/cardMenu';\n@import '../components/greenLign';\n@import '../components/buttons';\n@import '../components/icones';\n@import '../components/circle';\n//@import '../layout/restaurantMenu';\n@import '../layout/footer';\n@import '../pages/index';\n@import '../vendors/normalize';\nheader{\n    position: relative;\n    a{\n        position: absolute;\n        left: 10px;\n    }\n}\n.image img{\n    @include img_size;\n    border-radius: 0px;\n    height: 300px;\n}\n.main2{\n    margin-top: -60px;\n    padding: 20px 0px;\n    background-color: $colour-gray;\n    border-radius: 50px 50px 0 0 ;\n    position: relative;\n    .restaurant_name{\n        font-size: 62%;\n        h1{\n            width: 300px;\n            margin: auto;\n        }\n        .heart .fas{\n            top: 35px;\n            right: 30px;\n        }\n        }\n    } \n    .menu{\n        width: 100%;\n        @include dish;\n        .entrees .course{\n            animation : loading_menus 3s;\n            animation-fill-mode: forwards;\n        }\n        .plats .course{\n            animation : loading_menus 6s;\n            animation-fill-mode: forwards;\n        }\n        .desserts .course{\n            animation : loading_menus 9s;\n            animation-fill-mode: forwards;\n        }\n        @include media_tablet {\n            margin: 0%;\n                display: flex;\n                \n                flex-flow: row wrap;\n                justify-content: center;\n                \n                .dish{\n                width: 300px;\n                }\n            }\n        \n        }\n    \n    \n    a.commander{\n        width: 300px;\n        margin: 50px auto;\n    }\n        \n     "
+        }
+    ]
+}

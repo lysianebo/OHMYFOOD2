@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 25,
             "patches": [
                 {
                     "date": 1671579118677,
@@ -56,6 +56,58 @@
                 {
                     "date": 1671580616762,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \n @keyframes fill-heart{\n     from{\n         height: 0px;\n-       font-weight: 0;\n+        font-weight: 0;\n     }\n     to{ \n         height: 30px;\n         font-weight: 600;\n"
+                },
+                {
+                    "date": 1671628757370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+\n @keyframes fadeIn{\n     from{\n       opacity: 0;\n     }\n"
+                },
+                {
+                    "date": 1671628770980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,26 @@\n \n-@keyframes fadeIn{\n+ @-webkit-keyframes slide-left {\n+    0% {\n+      -webkit-transform: translateX(0);\n+              transform: translateX(0);\n+    }\n+    100% {\n+      -webkit-transform: translateX(-100px);\n+              transform: translateX(-100px);\n+    }\n+  }\n+  @keyframes slide-left {\n+    0% {\n+      -webkit-transform: translateX(0);\n+              transform: translateX(0);\n+    }\n+    100% {\n+      -webkit-transform: translateX(-100px);\n+              transform: translateX(-100px);\n+    }\n+  }\n+  @keyframes fadeIn{\n     from{\n       opacity: 0;\n     }\n     25%{\n"
+                },
+                {
+                    "date": 1671628781984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n-\n- @-webkit-keyframes slide-left {\n+ @keyframes slide-left {\n     0% {\n       -webkit-transform: translateX(0);\n               transform: translateX(0);\n     }\n"
+                },
+                {
+                    "date": 1671628791430,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n  @keyframes slide-left {\n     0% {\n-      -webkit-transform: translateX(0);\n+     \n+        transform: translateX(0);\n               transform: translateX(0);\n     }\n     100% {\n       -webkit-transform: translateX(-100px);\n"
+                },
+                {
+                    "date": 1671628797924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n  @keyframes slide-left {\n     0% {\n-     \n         transform: translateX(0);\n               transform: translateX(0);\n     }\n     100% {\n"
+                },
+                {
+                    "date": 1671628812036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n  @keyframes slide-left {\n     0% {\n         transform: translateX(0);\n-              transform: translateX(0);\n+    \n     }\n     100% {\n       -webkit-transform: translateX(-100px);\n               transform: translateX(-100px);\n"
+                },
+                {
+                    "date": 1671628817794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n  @keyframes slide-left {\n     0% {\n         transform: translateX(0);\n-    \n     }\n     100% {\n       -webkit-transform: translateX(-100px);\n               transform: translateX(-100px);\n"
+                },
+                {
+                    "date": 1671628826069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n- @keyframes slide-left {\n+ @keyframes slide-left{\n     0% {\n         transform: translateX(0);\n     }\n     100% {\n"
+                },
+                {
+                    "date": 1671628847257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n  @keyframes slide-left{\n-    0% {\n+    0%{\n         transform: translateX(0);\n     }\n-    100% {\n-      -webkit-transform: translateX(-100px);\n+    100%{\n+      translateX(-100px);\n               transform: translateX(-100px);\n     }\n   }\n   @keyframes slide-left {\n"
+                },
+                {
+                    "date": 1671628858542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n     0%{\n         transform: translateX(0);\n     }\n     100%{\n-      translateX(-100px);\n-              transform: translateX(-100px);\n+        translateX(-100px);\n+             ;\n     }\n   }\n   @keyframes slide-left {\n     0% {\n"
+                },
+                {
+                    "date": 1671628886161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,21 +3,11 @@\n         transform: translateX(0);\n     }\n     100%{\n         translateX(-100px);\n-             ;\n     }\n   }\n-  @keyframes slide-left {\n-    0% {\n-      -webkit-transform: translateX(0);\n-              transform: translateX(0);\n-    }\n-    100% {\n-      -webkit-transform: translateX(-100px);\n-              transform: translateX(-100px);\n-    }\n-  }\n+  \n   @keyframes fadeIn{\n     from{\n       opacity: 0;\n     }\n"
+                },
+                {
+                    "date": 1671630369853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(0);\n     }\n     100%{\n-        translateX(-100px);\n+        transformtranslateX(-100px);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671630426745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(0);\n     }\n     100%{\n-        transformtranslateX(-100px);\n+        transform: translateX(-100px);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
                 }
             ],
             "date": 1671579118677,

@@ -1,5 +1,7 @@
 .course{
-    width: auto;
+    //width: calc(100%-40px);
+    //width: fit-content;
+    width: 360px;
     opacity: 0;
     display: flex;
     align-items: flex-end;
@@ -9,27 +11,26 @@
     box-shadow: 4px 4px 5px  darken($colour-gray,12);
     height: 75px;
     overflow: hidden;
-    
     &:active, &:hover{
-        .fa-check-circle{
-           animation: rotate 1s;
-        }
         .dish{
-            transform: width 2s linear;
-            //width: 80%;
+            width: calc(300px - 80px);
             padding-right: 10px;
-        }
+        }.fa-check-circle{
+            animation: rotate 1s;
+         }
         .validate{
-            min-width: 80px;  
-            opacity: 1;
+            //width: 80px;  
+            opacity: 0;
         }
     }
 }
 .dish{
-    width: 100%;
+    background-color: red;
+    
     justify-content: space-between;
 }
 .dish p, h6{
+    background-color: red;
     padding-left: 15px;
     overflow: hidden;
     white-space: nowrap;
@@ -39,7 +40,7 @@ p{
     padding-bottom: 15px;
 }
 .prix{
-    //width: 100%;
+    width: 100%;
     text-align: right;
     padding: 0 10px 15px 10px;
     cursor: pointer;
@@ -53,7 +54,8 @@ p{
     width: 0px;
     opacity: 0;
     height: 100%;
-    transition: width 1s, opacity 1s;
+    animation: slide-left 0.5s ease-in;
+     opacity: 1s;
     .fa-check-circle{
         color: white;
         font-size: 30px;

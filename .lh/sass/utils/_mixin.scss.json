@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 15,
+            "activePatchIndex": 17,
             "patches": [
                 {
                     "date": 1671576903536,
@@ -68,6 +68,14 @@
                 {
                     "date": 1671617610268,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n //**** Mixins for Layout ***\n \n-@mixin flexTool($direction){\n+@mixin flexToo($direction){\n     display: flex;\n     flex-direction: $direction;\n     justify-content: center; \n     align-items: center; \n"
+                },
+                {
+                    "date": 1671622833334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n //**** Mixins for Layout ***\n \n-@mixin flexToo($direction){\n+@mixin flexTool($direction){\n     display: flex;\n     flex-direction: $direction;\n     justify-content: center; \n     align-items: center; \n@@ -25,14 +25,9 @@\n @if $width > 84%{\n     font-size: 88%;\n     }\n }\n-    @mixin course(){\n-        $width : 85%;   \n-    @if $width > 84%{\n-        font-size: 88%;\n-        }\n-    }\n+   \n \n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n"
+                },
+                {
+                    "date": 1671622846014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,8 @@\n @if $width > 84%{\n     font-size: 88%;\n     }\n }\n-   \n \n //**** Mixins Media Querys ***\n \n @mixin media_tablet{\n"
                 }
             ],
             "date": 1671576903536,

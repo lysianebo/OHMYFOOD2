@@ -1,0 +1,22 @@
+{
+    "sourceFile": "sass/components/_card_restaurant.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1671625574363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1671626082421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,6 +24,5 @@\n         position: relative;\n         h3, p{\n             line-height: 1.5;\n         }\n-    }\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1671625574363,
+            "name": "Commit-0",
+            "content": ".restaurant_card{\n    background-color:$colour-white;\n    margin: auto;\n    margin-bottom: 30px;\n    position: relative;\n    width: 92%;\n    box-shadow: rgba(24, 24, 24, 0.35) 0px 5px 15px;\n    border-radius: 15px;\n    padding-bottom: 15px; \n    img{\n        @include img_size;\n    }\n    .green_card{\n        background-color: $colour-tertiary;\n        color: darken($colour-tertiary, 35%);\n        font-weight: 700;\n        position: absolute;\n        right : 2%;\n        top : 5%;\n        padding: 10px;\n        border-radius: 5%;\n    }\n    .description{\n        position: relative;\n        h3, p{\n            line-height: 1.5;\n        }\n    }\n}"
+        }
+    ]
+}

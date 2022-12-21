@@ -47,7 +47,7 @@ header .fa-arrow-left-long{
   font-size: 30px;
   color: white;
   transform: rotate(-360deg);
-  &:hover{
+  &:active, &:hover{
   animation: rotate 0.5ms linear;
   }
 }
