@@ -237,7 +237,6 @@ html {
 }
 
 .dish p, h6 {
-  background-color: red;
   padding-left: 15px;
   overflow: hidden;
   white-space: nowrap;

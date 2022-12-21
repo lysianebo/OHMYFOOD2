@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 197,
+            "activePatchIndex": 198,
             "patches": [
                 {
                     "date": 1671581255128,
@@ -796,6 +796,10 @@
                 {
                     "date": 1671636393642,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     \n     &:active, &:hover{\n         .dish{\n             transition: width 1s;\n-            min-width: 300px;\n+            min-width: 200px;\n             padding-right: 10px\n         }.fa-check-circle{\n             animation: rotate 1s;\n          }\n"
+                },
+                {
+                    "date": 1671638041038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,8 @@\n .dish{\n     justify-content: space-between;\n }\n .dish p, h6{\n-    background-color: red;\n     padding-left: 15px;\n     overflow: hidden;\n     white-space: nowrap;\n     text-overflow: ellipsis;\n"
                 }
             ],
             "date": 1671581255128,
