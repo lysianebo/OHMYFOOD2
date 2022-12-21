@@ -16,7 +16,7 @@
     &:active, &:hover{
         .dish{
             transition: width 1s;
-            min-width: 300px;
+            min-width: 200px;
             padding-right: 10px
         }.fa-check-circle{
             animation: rotate 1s;

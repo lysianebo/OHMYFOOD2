@@ -222,7 +222,7 @@ html {
 }
 .course:active .dish, .course:hover .dish {
   transition: width 1s;
-  min-width: 300px;
+  min-width: 200px;
   padding-right: 10px;
 }
 .course:active .fa-check-circle, .course:hover .fa-check-circle {
