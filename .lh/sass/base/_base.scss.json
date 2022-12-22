@@ -1,0 +1,26 @@
+{
+    "sourceFile": "sass/base/_base.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1671661675158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1671664167376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n *{ box-sizing: border-box;\n     margin: 0;\n     padding: 0;\n-    border: 1px solid red;\n+   // border: 1px solid red;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671664236358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n *{ box-sizing: border-box;\n     margin: 0;\n     padding: 0;\n-   /border: 1px solid red;\n+   border: 1px solid red;\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1671661675158,
+            "name": "Commit-0",
+            "content": "*{ box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n    border: 1px solid red;\n}"
+        }
+    ]
+}

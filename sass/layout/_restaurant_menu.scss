@@ -29,7 +29,8 @@ header{
         }
     } 
     .menu{
-        @include dish;
+        margin: 0 10px;
+        //@include dish;
         .entrees .course{
             animation : loading_menus 3s;
             animation-fill-mode: forwards;
@@ -42,16 +43,26 @@ header{
             animation : loading_menus 9s;
             animation-fill-mode: forwards;
         }
-        @include media_tablet {
-                display: flex;
-                flex-flow: row wrap;
-                justify-content: center;
-                .dish{
-                width: 300px;
+        @include media_tablet{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            gap: 20px; 
+                .course{
+                    min-width: 390px;
+                    max-width: 100%;
+                    justify-content: space-around;
                 }
-            }
-        
+                .dish{
+                    width: 240px;
+                }
+                .prix{
+                    padding-left: 0;      
+                }
+            }   
         }
+
+        
     
     a.commander{
         width: 300px;

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 22,
+            "activePatchIndex": 97,
             "patches": [
                 {
                     "date": 1671623020761,
@@ -96,6 +96,306 @@
                 {
                     "date": 1671647705278,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,5 +57,4 @@\n         width: 300px;\n         margin: 50px auto;\n     }\n         \n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1671649888710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        @include dish;\n+        //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n         }\n"
+                },
+                {
+                    "date": 1671649935227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,9 @@\n         }\n         }\n     } \n     .menu{\n+        \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n"
+                },
+                {
+                    "date": 1671649948071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,9 @@\n         }\n         }\n     } \n     .menu{\n+        display: flex;\n         \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671649954315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         }\n     } \n     .menu{\n         display: flex;\n-        \n+        justify-content: s;\n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n"
+                },
+                {
+                    "date": 1671649965883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         }\n     } \n     .menu{\n         display: flex;\n-        justify-content: s;\n+        justify-content: space-e;\n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n"
+                },
+                {
+                    "date": 1671650020169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,10 @@\n         }\n     } \n     .menu{\n         display: flex;\n-        justify-content: space-e;\n+        \n+        justify-content: space-evenly;\n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n"
+                },
+                {
+                    "date": 1671650032377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         }\n     } \n     .menu{\n         display: flex;\n-        \n+        flex-direction: ;\n         justify-content: space-evenly;\n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671659461273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,11 @@\n         }\n         }\n     } \n     .menu{\n+        \n         display: flex;\n-        flex-direction: ;\n+        flex-direction: column;\n         justify-content: space-evenly;\n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671659480342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        \n+        p\n         display: flex;\n         flex-direction: column;\n         justify-content: space-evenly;\n         //@include dish;\n"
+                },
+                {
+                    "date": 1671659486822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        p\n+        padding: ;\n         display: flex;\n         flex-direction: column;\n         justify-content: space-evenly;\n         //@include dish;\n"
+                },
+                {
+                    "date": 1671659492599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        padding: ;\n+        padding: 0 ;\n         display: flex;\n         flex-direction: column;\n         justify-content: space-evenly;\n         //@include dish;\n"
+                },
+                {
+                    "date": 1671659574744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,11 +28,10 @@\n         }\n         }\n     } \n     .menu{\n-        padding: 0 ;\n-        display: flex;\n-        flex-direction: column;\n+        padding: 0 5%;\n+        @\n         justify-content: space-evenly;\n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671659580146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         }\n     } \n     .menu{\n         padding: 0 5%;\n-        @\n+        @include fl\n         justify-content: space-evenly;\n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671659585396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         }\n     } \n     .menu{\n         padding: 0 5%;\n-        @include fl\n+        @include flexTool\n         justify-content: space-evenly;\n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671659595027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     } \n     .menu{\n         padding: 0 5%;\n         @include flexTool\n-        justify-content: space-evenly;\n+        \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n"
+                },
+                {
+                    "date": 1671659607268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         }\n     } \n     .menu{\n         padding: 0 5%;\n-        @include flexTool\n+        @include flexTool();\n         \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671659667457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,10 @@\n         }\n         }\n     } \n     .menu{\n-        padding: 0 5%;\n-        @include flexTool();\n+        padding: 0 ;\n+        @include flexTool(column);\n         \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671659685393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        padding: 0 ;\n+        padding: 0 2;\n         @include flexTool(column);\n         \n         //@include dish;\n         .entrees .course{\n"
+                },
+                {
+                    "date": 1671659737594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        padding: 0 2;\n+        padding: 0 10px;\n         @include flexTool(column);\n         \n         //@include dish;\n         .entrees .course{\n"
+                },
+                {
+                    "date": 1671659767273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        padding: 0 10px;\n+        padding: 0 1px;\n         @include flexTool(column);\n         \n         //@include dish;\n         .entrees .course{\n"
+                },
+                {
+                    "date": 1671659802734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         }\n     } \n     .menu{\n         padding: 0 1px;\n-        @include flexTool(column);\n+        //@include flexTool(column);\n         \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671659894163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        padding: 0 1px;\n+        padding: 0 1;\n         //@include flexTool(column);\n         \n         //@include dish;\n         .entrees .course{\n"
+                },
+                {
+                    "date": 1671659915367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        padding: 0 1;\n+        padding: 0 1px;\n         //@include flexTool(column);\n         \n         //@include dish;\n         .entrees .course{\n"
+                },
+                {
+                    "date": 1671659952849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,11 +48,9 @@\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n-                .dish{\n-                width: 300px;\n-                }\n+               ∕\n             }\n         \n         }\n     \n"
+                },
+                {
+                    "date": 1671659959604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,11 @@\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n-               ∕\n+                // .dish{\n+                // width: 300px;\n+                // }\n             }\n         \n         }\n     \n"
+                },
+                {
+                    "date": 1671660422862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         }\n     } \n     .menu{\n         padding: 0 1px;\n-        //@include flexTool(column);\n+        @include flexTool(column);\n         \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671660490439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n     .menu{\n         padding: 0 1px;\n         @include flexTool(column);\n         \n-        //@include dish;\n+        @include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n         }\n"
+                },
+                {
+                    "date": 1671660700225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n     .menu{\n         padding: 0 1px;\n         @include flexTool(column);\n         \n-        @include dish;\n+        //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n         }\n"
+                },
+                {
+                    "date": 1671660763473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         }\n     } \n     .menu{\n         padding: 0 1px;\n-        @include flexTool(column);\n+        //@include flexTool(column);\n         \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671660785273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        padding: 0 1px;\n+        padding: 0 px;\n         //@include flexTool(column);\n         \n         //@include dish;\n         .entrees .course{\n"
+                },
+                {
+                    "date": 1671660807361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,11 @@\n         }\n         }\n     } \n     .menu{\n-        padding: 0 px;\n+        padding: 0px;\n         //@include flexTool(column);\n+        a\n         \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671660814931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     } \n     .menu{\n         padding: 0px;\n         //@include flexTool(column);\n-        a\n+        align-self: ;\n         \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671660826761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     } \n     .menu{\n         padding: 0px;\n         //@include flexTool(column);\n-        align-self: ;\n+       te\n         \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671660837646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     } \n     .menu{\n         padding: 0px;\n         //@include flexTool(column);\n-       te\n+      \n         \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671660852918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        padding: 0px;\n+        padding: auto;\n         //@include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671660865458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        padding: auto;\n+        padding: ;\n         //@include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671660980427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,10 @@\n         }\n         }\n     } \n     .menu{\n-        padding: ;\n-        //@include flexTool(column);\n+        padding: 5%;\n+        @include flexTool(column);\n       \n         \n         //@include dish;\n         .entrees .course{\n"
+                },
+                {
+                    "date": 1671661046479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        padding: 5%;\n+        //padding: 5%;\n         @include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671661104519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        //padding: 5%;\n+        padding: 5%;\n         @include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671661116538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        padding: 5%;\n+        padding: auto;\n         @include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671661202298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        padding: auto;\n+        marging: auto;\n         @include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671661211324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        marging: auto;\n+        margin: ;\n         @include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671661222887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        margin: ;\n+        margin: 0 20px;\n         @include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671661245667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         }\n     } \n     .menu{\n         margin: 0 20px;\n-        @include flexTool(column);\n+        //@include flexTool(column);\n       \n         \n         //@include dish;\n         .entrees .course{\n"
+                },
+                {
+                    "date": 1671661257943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        margin: 0 20px;\n+        margin: 0 0px;\n         //@include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671661264975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        margin: 0 0px;\n+        margin: 0 5px;\n         //@include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671661370231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        margin: 0 5px;\n+        margin: 0 px;\n         //@include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671661377422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        margin: 0 px;\n+        margin: 0 1px;\n         //@include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671661426385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-        margin: 0 1px;\n+       // margin: 0 1px;\n         //@include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671662812687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-       // margin: 0 1px;\n+       margin: 0 1px;\n         //@include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671663213681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-       margin: 0 1px;\n+       margin: 0 px;\n         //@include flexTool(column);\n       \n         \n         //@include dish;\n"
+                },
+                {
+                    "date": 1671664615417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,11 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-       margin: 0 px;\n-        //@include flexTool(column);\n-      \n+       margin: 0 10px;\n         \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n"
+                },
+                {
+                    "date": 1671664624306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         }\n     } \n     .menu{\n        margin: 0 10px;\n-        \n+       \n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n"
+                },
+                {
+                    "date": 1671664687514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-       margin: 0 10px;\n-       \n+    margin: 0 10px;\n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n"
+                },
+                {
+                    "date": 1671664758974,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         }\n         }\n     } \n     .menu{\n-    margin: 0 10px;\n+        margin: 0 10px;\n         //@include dish;\n         .entrees .course{\n             animation : loading_menus 3s;\n             animation-fill-mode: forwards;\n@@ -46,9 +46,9 @@\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n-                // .dish{\n+                //.dish{\n                 // width: 300px;\n                 // }\n             }\n         \n"
+                },
+                {
+                    "date": 1671664769738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,10 +46,10 @@\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n-                //.dish{\n-                // width: 300px;\n+                .dish{\n+                width: 300px;\n                 // }\n             }\n         \n         }\n"
+                },
+                {
+                    "date": 1671664789403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n                 flex-flow: row wrap;\n                 justify-content: center;\n                 .dish{\n                 width: 300px;\n-                // }\n+                }\n             }\n         \n         }\n     \n"
+                },
+                {
+                    "date": 1671664809754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n                 .dish{\n-                width: 300px;\n+                    width: 300px;\n                 }\n             }\n         \n         }\n"
+                },
+                {
+                    "date": 1671664902295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n                 .dish{\n-                    width: 300px;\n+                    minwidth: 300px;\n                 }\n             }\n         \n         }\n"
+                },
+                {
+                    "date": 1671664908756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n                 .dish{\n-                    minwidth: 300px;\n+                    min-width: ;\n                 }\n             }\n         \n         }\n"
+                },
+                {
+                    "date": 1671664914300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n                 .dish{\n-                    min-width: ;\n+                    min-width:90%;\n                 }\n             }\n         \n         }\n"
+                },
+                {
+                    "date": 1671664938793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n                 .dish{\n-                    min-width:90%;\n+                    width: 90%;\n                 }\n             }\n         \n         }\n"
+                },
+                {
+                    "date": 1671664958250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n-                .dish{\n+                .{\n                     width: 90%;\n                 }\n             }\n         \n"
+                },
+                {
+                    "date": 1671664971244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,10 +46,10 @@\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: center;\n-                .{\n-                    width: 90%;\n+                .course{\n+                    width: 0%;\n                 }\n             }\n         \n         }\n"
+                },
+                {
+                    "date": 1671665006287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,11 +45,11 @@\n         }\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n-                justify-content: center;\n+                justify-content: \n                 .course{\n-                    width: 0%;\n+                    width: 100%;\n                 }\n             }\n         \n         }\n"
+                },
+                {
+                    "date": 1671665016168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n         }\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n-                justify-content: \n+                justify-content: sp \n                 .course{\n                     width: 100%;\n                 }\n             }\n"
+                },
+                {
+                    "date": 1671665032476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,12 +45,10 @@\n         }\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n-                justify-content: sp \n-                .course{\n-                    width: 100%;\n-                }\n+                justify-content: space-between; \n+                \n             }\n         \n         }\n     \n"
+                },
+                {
+                    "date": 1671665067036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: space-between; \n-                \n+               \n             }\n         \n         }\n     \n"
+                },
+                {
+                    "date": 1671665072612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: space-between; \n-               \n+            .dish[]   \n             }\n         \n         }\n     \n"
+                },
+                {
+                    "date": 1671665082248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,11 @@\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: space-between; \n-            .dish[]   \n+            .dish{\n+                mi\n+            }   \n             }\n         \n         }\n     \n"
+                },
+                {
+                    "date": 1671665090164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: space-between; \n             .dish{\n-                mi\n+                min-width: 100%;\n             }   \n             }\n         \n         }\n"
+                },
+                {
+                    "date": 1671665135627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n         }\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n-                justify-content: space-between; \n+                justify-content: space-; \n             .dish{\n                 min-width: 100%;\n             }   \n             }\n"
+                },
+                {
+                    "date": 1671665156549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,11 +45,11 @@\n         }\n         @include media_tablet {\n                 display: flex;\n                 flex-flow: row wrap;\n-                justify-content: space-; \n+                justify-content: space-around; \n             .dish{\n-                min-width: 100%;\n+              width: 100%;\n             }   \n             }\n         \n         }\n"
+                },
+                {
+                    "date": 1671665167316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: space-around; \n             .dish{\n-              width: %;\n+              width: 9%;\n             }   \n             }\n         \n         }\n"
+                },
+                {
+                    "date": 1671665225161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n             animation : loading_menus 9s;\n             animation-fill-mode: forwards;\n         }\n         @include media_tablet {\n-            mar\n+            marg\n                 display: flex;\n                 flex-flow: row wrap;\n                 justify-content: space-around; \n             .dish{\n"
                 }
             ],
             "date": 1671623020761,

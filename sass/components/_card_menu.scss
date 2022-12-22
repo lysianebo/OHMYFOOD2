@@ -1,34 +1,39 @@
 .course{
-    //width: calc(100% - 40px);
-    width: 90%;
-    //width: 360px;
-    margin: auto;
     opacity: 0;
     display: flex;
     align-items: flex-end;
-    margin: 15px 20px;
+    margin: 15px 0px;
     border-radius: 15px;
     background-color: white;
     box-shadow: 4px 4px 5px  darken($colour-gray,12);
     height: 75px;
     overflow: hidden;
+    //transition: 200ms ease-in;
     &:active, &:hover{
         .dish{
-            transition: width 1s;
-            //min-width: 200px;
-            padding-right: 10px
-        }.fa-check-circle{
-            animation: rotate 1s;
-         }
+            min-width: 60%;
+            padding-right: 10px;
+            
+        }
+        .prix{
+            animation: slide-left 1500ms ease-in;
+        }
         .validate{
-            width: 80px;  
+         
+            width: 10%;  
             opacity: 1;
+            animation: slide-left 1.2s ease-in 0s; 
+           // transform: scaleX(2);
+            //transition: width 1s;
+            .fa-check-circle{
+                animation: rotate 1s;
+            }
         }
     }
 }
 .dish{
-    display: flex;
-    flex-direction: column;
+    min-width: 88%;
+    font-size: 92%;
     justify-content: space-between;
 }
 .dish p, h6{
@@ -37,28 +42,25 @@
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-p{
+.dish p{
     padding-bottom: 15px;
 }
 .prix{
-    width: 100%;
+   width: 10%;
     text-align: right;
-    padding: 0 10px 15px 10px;
-    //cursor: pointer;
-    transition: 1400ms ease-in-out;
-}
+    padding: 0 15px 15px 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    }
 .validate{
     @include flexTool(column);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color:$colour-tertiary;
-    width: 0px;
-    opacity: 0;
+   margin-right: -35px;
+    padding: auto;
     height: 100%;
-    //animation: slide-left 0.5s ease-in;
-     opacity: 1s;
-    .fa-check-circle{
-        color: white;
-        font-size: 30px;
-    }
+    width: 80px;
+    opacity: 1;
+
 }

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 25,
+            "activePatchIndex": 72,
             "patches": [
                 {
                     "date": 1671579118677,
@@ -108,6 +108,194 @@
                 {
                     "date": 1671630426745,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(0);\n     }\n     100%{\n-        transformtranslateX(-100px);\n+        transform: translateX(-100px);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671655909531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n  @keyframes slide-left{\n     0%{\n         transform: translateX(0);\n+        wi\n     }\n     100%{\n         transform: translateX(-100px);\n     }\n"
+                },
+                {
+                    "date": 1671655915753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n  @keyframes slide-left{\n     0%{\n         transform: translateX(0);\n-        wi\n+        width: 0%;\n     }\n     100%{\n         transform: translateX(-100px);\n     }\n"
+                },
+                {
+                    "date": 1671655922387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n         width: 0%;\n     }\n     100%{\n         transform: translateX(-100px);\n+        width: ;\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671655930360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n         width: 0%;\n     }\n     100%{\n         transform: translateX(-100px);\n-        width: ;\n+        width: 80px;\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671655959153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n         width: 0%;\n     }\n     100%{\n         transform: translateX(-100px);\n-        width: 80px;\n+        \n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671655969757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n  @keyframes slide-left{\n     0%{\n         transform: translateX(0);\n-        width: 0%;\n+       \n     }\n     100%{\n+        width: 80px;\n         transform: translateX(-100px);\n         \n     }\n   }\n"
+                },
+                {
+                    "date": 1671655976064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n  @keyframes slide-left{\n     0%{\n+        width: 0%;\n         transform: translateX(0);\n        \n     }\n     100%{\n"
+                },
+                {
+                    "date": 1671656154748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n         transform: translateX(0);\n        \n     }\n     100%{\n-        width: 80px;\n+        //width: 80px;\n         transform: translateX(-100px);\n         \n     }\n   }\n"
+                },
+                {
+                    "date": 1671656176745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n         transform: translateX(0);\n        \n     }\n     100%{\n-        //width: 80px;\n+        //width: 50;\n         transform: translateX(-100px);\n         \n     }\n   }\n"
+                },
+                {
+                    "date": 1671656183906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n         transform: translateX(0);\n        \n     }\n     100%{\n-        //width: 50;\n+        width: 50%;\n         transform: translateX(-100px);\n         \n     }\n   }\n"
+                },
+                {
+                    "date": 1671656204041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n        \n     }\n     100%{\n         width: 50%;\n-        transform: translateX(-100px);\n+        transform: translateX(-0px);\n         \n     }\n   }\n   \n"
+                },
+                {
+                    "date": 1671656226516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,10 @@\n         transform: translateX(0);\n        \n     }\n     100%{\n-        width: 50%;\n-        transform: translateX(-0px);\n+       // width: 50%;\n+        transform: translateX(-50px);\n         \n     }\n   }\n   \n"
+                },
+                {
+                    "date": 1671656237947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n         transform: translateX(0);\n        \n     }\n     100%{\n-       // width: 50%;\n+      \n         transform: translateX(-50px);\n         \n     }\n   }\n"
+                },
+                {
+                    "date": 1671656255198,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n  @keyframes slide-left{\n     0%{\n-        width: 0%;\n         transform: translateX(0);\n        \n     }\n     100%{\n"
+                },
+                {
+                    "date": 1671656261323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(0);\n+        ransform: translateX(0);\n        \n     }\n     100%{\n       \n"
+                },
+                {
+                    "date": 1671656273612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,10 @@\n  @keyframes slide-left{\n     0%{\n         ransform: translateX(0);\n-       \n     }\n     100%{\n-      \n-        transform: translateX(-50px);\n+      transform: translateX(-50px);\n         \n     }\n   }\n   \n"
+                },
+                {
+                    "date": 1671656280305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        ransform: translateX(0);\n+        transform: translateX(0);\n     }\n     100%{\n       transform: translateX(-50px);\n         \n"
+                },
+                {
+                    "date": 1671656288291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(0);\n     }\n     100%{\n-      transform: translateX(-50px);\n+        transform: translateX(-50px);\n         \n     }\n   }\n   \n"
+                },
+                {
+                    "date": 1671672726493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,9 @@\n     0%{\n         transform: translateX(0);\n     }\n     100%{\n-        transform: translateX(-50px);\n-        \n+        transform: translateX(0px);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671672733320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(0);\n     }\n     100%{\n-        transform: translateX(0px);\n+        transform: translateX(-0px);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671672757221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(0);\n     }\n     100%{\n-        transform: translateX(-0px);\n+        transform: translateX(-100px);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671673142020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(0);\n+        transform: translateX(_0);\n     }\n     100%{\n         transform: translateX(-100px);\n     }\n"
+                },
+                {
+                    "date": 1671673150894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(_0);\n+        transform: translateX(-80);\n     }\n     100%{\n         transform: translateX(-100px);\n     }\n"
+                },
+                {
+                    "date": 1671673159797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(-80);\n     }\n     100%{\n-        transform: translateX(-100px);\n+        transform: translateX(0px);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671673167394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(-80);\n     }\n     100%{\n-        transform: translateX(0px);\n+        transform: translateX(80px);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671673186247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(-80);\n+        transform: translateX(80);\n     }\n     100%{\n         transform: translateX(80px);\n     }\n"
+                },
+                {
+                    "date": 1671673204852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(80);\n+        transform: translateX(0);\n     }\n     100%{\n         transform: translateX(80px);\n     }\n"
+                },
+                {
+                    "date": 1671673233673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(0);\n     }\n     100%{\n-        transform: translateX(80px);\n+        transform: translateX(-80px);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671673251778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(0);\n+        transform: translateX(-0);\n     }\n     100%{\n         transform: translateX(-80px);\n     }\n"
+                },
+                {
+                    "date": 1671673268403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(-0);\n+        transform: translateX(-10);\n     }\n     100%{\n         transform: translateX(-80px);\n     }\n"
+                },
+                {
+                    "date": 1671673276506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(-10);\n+        transform: translateX(0);\n     }\n     100%{\n-        transform: translateX(-80px);\n+        transform: translateX(-40px);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671673467971,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(0);\n+        transform: translateX();\n     }\n     100%{\n         transform: translateX(-40px);\n     }\n"
+                },
+                {
+                    "date": 1671673485491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX();\n+        transform: translateX(80);\n     }\n     100%{\n         transform: translateX(-40px);\n     }\n"
+                },
+                {
+                    "date": 1671673496803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(80);\n+        transform: translateX(160);\n     }\n     100%{\n         transform: translateX(-40px);\n     }\n"
+                },
+                {
+                    "date": 1671673537573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(160);\n     }\n     100%{\n-        transform: translateX(-40px);\n+        transform: translateX(-10px);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671673768486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(160);\n+        transform: translateX();\n     }\n     100%{\n         transform: translateX(-10px);\n     }\n"
+                },
+                {
+                    "date": 1671673775132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX();\n+        transform: translateX(20);\n     }\n     100%{\n-        transform: translateX(-10px);\n+        transform: translateX();\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671673798047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(20);\n+        transform: translateX(0);\n     }\n     100%{\n-        transform: translateX();\n+        transform: translateX(0);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671673812593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(0);\n+        transform: translateX(40);\n     }\n     100%{\n-        transform: translateX(0);\n+        transform: translateX();\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671673826714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(40);\n+        transform: translateX(0);\n     }\n     100%{\n-        transform: translateX();\n+        transform: translateX(80);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671673834962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(0);\n     }\n     100%{\n-        transform: translateX(80);\n+        transform: translateX(180);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671673924510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX(0);\n+        transform: translateX(20);\n     }\n     100%{\n         transform: translateX(180);\n     }\n"
+                },
+                {
+                    "date": 1671673934697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(20);\n     }\n     100%{\n-        transform: translateX(180);\n+        transform: translateX(-180);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671673944265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(20);\n     }\n     100%{\n-        transform: translateX(-180);\n+        transform: translateX(-10);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671673956760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(20);\n     }\n     100%{\n-        transform: translateX(-10);\n+        transform: translateX(-100);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
+                },
+                {
+                    "date": 1671674226318,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n  @keyframes slide-left{\n     0%{\n-        transform: translateX();\n+        transform: translateX(0);\n     }\n     100%{\n         transform: translateX(-100);\n     }\n"
+                },
+                {
+                    "date": 1671674629066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     0%{\n         transform: translateX(90%);\n     }\n     100%{\n-        transform: translateX(-10);\n+        transform: translateX(-10%);\n     }\n   }\n   \n   @keyframes fadeIn{\n"
                 }
             ],
             "date": 1671579118677,
