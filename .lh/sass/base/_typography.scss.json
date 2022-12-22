@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 26,
             "patches": [
                 {
                     "date": 1671572569089,
@@ -44,6 +44,74 @@
                 {
                     "date": 1671620849685,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n \n body{\n     font-family: Roboto, sans-serif;\n     font-size: 16px;\n-    margin:;\n+    margin: auto;\n     padding: 0;\n     max-width: 1400px;\n }\n h1{\n"
+                },
+                {
+                    "date": 1671739977129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,8 @@\n     padding-bottom: 22px;\n     margin-top: 20px;\n }\n h6{\n-    font-size: 100%; \n     font-weight: 600;\n }\n ul{\n     list-style-type: none;\n"
+                },
+                {
+                    "date": 1671741253187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,8 +33,9 @@\n     padding-bottom: 22px;\n     margin-top: 20px;\n }\n h6{\n+    \n     font-weight: 600;\n }\n ul{\n     list-style-type: none;\n"
+                },
+                {
+                    "date": 1671741258806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n     padding-bottom: 22px;\n     margin-top: 20px;\n }\n h6{\n-    \n+    font-size: 2;\n     font-weight: 600;\n }\n ul{\n     list-style-type: none;\n"
+                },
+                {
+                    "date": 1671741264602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n     padding-bottom: 22px;\n     margin-top: 20px;\n }\n h6{\n-    font-size: 2;\n+    font-size: 2,36vh;\n     font-weight: 600;\n }\n ul{\n     list-style-type: none;\n"
+                },
+                {
+                    "date": 1671741307818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n     padding-bottom: 22px;\n     margin-top: 20px;\n }\n h6{\n-    font-size: 2,36vh;\n+    font-size: 2r;\n     font-weight: 600;\n }\n ul{\n     list-style-type: none;\n"
+                },
+                {
+                    "date": 1671741345076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n     padding-bottom: 22px;\n     margin-top: 20px;\n }\n h6{\n-    font-size: 2r;\n+    font-size: rem;\n     font-weight: 600;\n }\n ul{\n     list-style-type: none;\n"
+                },
+                {
+                    "date": 1671741716748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n     padding-bottom: 22px;\n     margin-top: 20px;\n }\n h6{\n-    font-size: rem;\n+    font-size: 1em;\n     font-weight: 600;\n }\n ul{\n     list-style-type: none;\n"
+                },
+                {
+                    "date": 1671741770133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n     padding-bottom: 22px;\n     margin-top: 20px;\n }\n h6{\n-    font-size: 1em;\n+    font-size: em;\n     font-weight: 600;\n }\n ul{\n     list-style-type: none;\n"
+                },
+                {
+                    "date": 1671741813513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n     padding-bottom: 22px;\n     margin-top: 20px;\n }\n h6{\n-    font-size: em;\n+    font-size: 1.5em;\n     font-weight: 600;\n }\n ul{\n     list-style-type: none;\n"
+                },
+                {
+                    "date": 1671741829247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n     padding-bottom: 22px;\n     margin-top: 20px;\n }\n h6{\n-    font-size: 1.5em;\n+    font-size: 1.em;\n     font-weight: 600;\n }\n ul{\n     list-style-type: none;\n"
+                },
+                {
+                    "date": 1671741879185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n body{\n     font-family: Roboto, sans-serif;\n-    font-size: 16px;\n+    font-size: 1;\n     margin: auto;\n     padding: 0;\n     max-width: 1400px;\n }\n@@ -33,9 +33,9 @@\n     padding-bottom: 22px;\n     margin-top: 20px;\n }\n h6{\n-    font-size: 1.em;\n+    font-size: 1.1em;\n     font-weight: 600;\n }\n ul{\n     list-style-type: none;\n"
+                },
+                {
+                    "date": 1671741961010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,15 @@\n \n body{\n     font-family: Roboto, sans-serif;\n-    font-size: 1;\n+    font-size: 1em;\n     margin: auto;\n     padding: 0;\n     max-width: 1400px;\n }\n h1{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 250%;\n+    font-size: 2;\n     font-weight: 700;\n     line-height: 1.1;\n     text-align: center;\n     padding: 20px;\n"
+                },
+                {
+                    "date": 1671742029980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     max-width: 1400px;\n }\n h1{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 2;\n+    font-size: 1.5em;\n     font-weight: 700;\n     line-height: 1.1;\n     text-align: center;\n     padding: 20px;\n"
+                },
+                {
+                    "date": 1671742173874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     max-width: 1400px;\n }\n h1{\n     font-family: Shrikhand, sans-serif;\n-    font-size: 1.5em;\n+    font-size: .5em;\n     font-weight: 700;\n     line-height: 1.1;\n     text-align: center;\n     padding: 20px;\n"
+                },
+                {
+                    "date": 1671742237491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     max-width: 1400px;\n }\n h1{\n     font-family: Shrikhand, sans-serif;\n-    font-size: .5em;\n+    font-size: 2.5em;\n     font-weight: 700;\n     line-height: 1.1;\n     text-align: center;\n     padding: 20px;\n"
+                },
+                {
+                    "date": 1671743686520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     padding: 20px;\n }\n h2{\n     padding: 20px;\n-    font-size: 150%;\n+    font-size: 140%;\n }\n h3, p{\n     padding-left: 20px;\n }\n"
+                },
+                {
+                    "date": 1671743704861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     padding: 20px;\n }\n h2{\n     padding: 20px;\n-    font-size: 10%;\n+    font-size: 130%;\n }\n h3, p{\n     padding-left: 20px;\n }\n"
                 }
             ],
             "date": 1671572569089,

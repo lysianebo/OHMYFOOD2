@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 52,
+            "activePatchIndex": 61,
             "patches": [
                 {
                     "date": 1671578320083,
@@ -216,6 +216,42 @@
                 {
                     "date": 1671670396720,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n   padding-right: 10px;\n   font-size: 30px;\n   color: white;\n    &:active, &:hover{\n-  animation: rotate 1s;\n+  animation: rotate 1s linear;\n   }\n }\n \n \n"
+                },
+                {
+                    "date": 1671700907920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n }\n \n //Check-----------------  \n .fa-check-circle{\n-  padding-right: 10px;\n+  //padding-right: 10px;\n   font-size: 30px;\n   color: white;\n    &:active, &:hover{\n   animation: rotate 1s linear;\n"
+                },
+                {
+                    "date": 1671710094605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n }\n \n //Check-----------------  \n .fa-check-circle{\n-  //padding-right: 10px;\n+  padding-right: 10px;\n   font-size: 30px;\n   color: white;\n    &:active, &:hover{\n   animation: rotate 1s linear;\n"
+                },
+                {
+                    "date": 1671710102638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n }\n \n //Check-----------------  \n .fa-check-circle{\n-  padding-right: 10px;\n+  padding;\n   font-size: 30px;\n   color: white;\n    &:active, &:hover{\n   animation: rotate 1s linear;\n"
+                },
+                {
+                    "date": 1671710108024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n }\n \n //Check-----------------  \n .fa-check-circle{\n-  padding;\n+  padding: auto;\n   font-size: 30px;\n   color: white;\n    &:active, &:hover{\n   animation: rotate 1s linear;\n"
+                },
+                {
+                    "date": 1671710365019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n }\n \n //Check-----------------  \n .fa-check-circle{\n-  padding: auto;\n+ \n   font-size: 30px;\n   color: white;\n    &:active, &:hover{\n   animation: rotate 1s linear;\n"
+                },
+                {
+                    "date": 1671710380935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n }\n \n //Check-----------------  \n .fa-check-circle{\n- \n+ ma\n   font-size: 30px;\n   color: white;\n    &:active, &:hover{\n   animation: rotate 1s linear;\n"
+                },
+                {
+                    "date": 1671710440710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n }\n \n //Check-----------------  \n .fa-check-circle{\n- ma\n+  margin: auto;\n   font-size: 30px;\n   color: white;\n    &:active, &:hover{\n   animation: rotate 1s linear;\n"
+                },
+                {
+                    "date": 1671710447524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .fa-check-circle{\n   margin: auto;\n   font-size: 30px;\n   color: white;\n-   &:active, &:hover{\n+  &:active, &:hover{\n   animation: rotate 1s linear;\n   }\n }\n \n"
+                },
+                {
+                    "date": 1671710453867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n   margin: auto;\n   font-size: 30px;\n   color: white;\n   &:active, &:hover{\n-  animation: rotate 1s linear;\n+    animation: rotate 1s linear;\n   }\n }\n \n \n"
                 }
             ],
             "date": 1671578320083,

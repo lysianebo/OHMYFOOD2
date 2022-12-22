@@ -17,53 +17,45 @@ header{
     border-radius: 50px 50px 0 0 ;
     position: relative;
     .restaurant_name{
-        font-size: 68%;
+        font-size: 62%;
         h1{
-            width: 300px;
+            width:fit-content;
             margin: auto;
         }
         .heart .fas{
             top: 35px;
             right: 30px;
         }
+    }
+} 
+.menu{
+    margin: 10px;
+    .entrees .course{
+        animation : loading_menus 3s;
+        animation-fill-mode: forwards;
+    }
+    .plats .course{
+        animation : loading_menus 6s;
+        animation-fill-mode: forwards;
+    }
+    .desserts .course{
+        animation : loading_menus 9s;
+        animation-fill-mode: forwards;
+    }
+    @include media_tablet{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+        .entrees, .plats, .desserts{
+            width: 48%;
+        }
+    }  
+    @include media_desktop{
+        .entrees, .plats, .desserts{
+            width: 32%;
         }
     } 
-    .menu{
-        margin: 0 10px;
-        //@include dish;
-        .entrees .course{
-            animation : loading_menus 3s;
-            animation-fill-mode: forwards;
-        }
-        .plats .course{
-            animation : loading_menus 6s;
-            animation-fill-mode: forwards;
-        }
-        .desserts .course{
-            animation : loading_menus 9s;
-            animation-fill-mode: forwards;
-        }
-        @include media_tablet{
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-around;
-            gap: 20px; 
-                .course{
-                    min-width: 390px;
-                    max-width: 100%;
-                    justify-content: space-around;
-                }
-                .dish{
-                    width: 240px;
-                }
-                .prix{
-                    padding-left: 0;      
-                }
-            }   
-        }
-
-        
-    
+    }
     a.commander{
         width: 300px;
         margin: 50px auto;

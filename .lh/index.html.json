@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1671578433149,
@@ -44,6 +44,10 @@
                 {
                     "date": 1671578675220,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n                                 <h3>La note enchantée</h3>\n                                 <p>Charonne</p>\n                                 <a class=\"heart\">\n                                     <i class=\"fas fa-heart\"></i>\n-                                </>\n+                                </a>\n                             </div>\n                         </a>\n                     </div>\n                     <div class=\"restaurant_card\">\n"
+                },
+                {
+                    "date": 1671744534918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,9 +73,9 @@\n                         <a href=\"./La_palette_du_gout.html\">\n                             <img src=\"public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg\" alt=\"La palette du goût\"/>\n                             <p class=\"green_card\">Nouveau</p>\n                             <div class=\"description\">\n-                                <h3>La palette goût du</h3>\n+                                <h3>La palette du goût du</h3>\n                                 <p>Ménilmontant</p>\n                                 <a class=\"heart\">\n                                     <i class=\"fas fa-heart\"></i>\n                                 </a>  \n"
                 }
             ],
             "date": 1671578433149,

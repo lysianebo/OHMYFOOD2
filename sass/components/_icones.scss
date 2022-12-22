@@ -43,11 +43,11 @@ header .fa-arrow-left-long{
 
 //Check-----------------  
 .fa-check-circle{
-  padding-right: 10px;
+  margin: auto;
   font-size: 30px;
   color: white;
-   &:active, &:hover{
-  animation: rotate 1s linear;
+  &:active, &:hover{
+    animation: rotate 1s linear;
   }
 }
 

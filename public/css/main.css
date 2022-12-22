@@ -12,7 +12,7 @@
 
 body {
   font-family: Roboto, sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   margin: auto;
   padding: 0;
   max-width: 1400px;
@@ -20,7 +20,7 @@ body {
 
 h1 {
   font-family: Shrikhand, sans-serif;
-  font-size: 250%;
+  font-size: 2.5em;
   font-weight: 700;
   line-height: 1.1;
   text-align: center;
@@ -29,7 +29,7 @@ h1 {
 
 h2 {
   padding: 20px;
-  font-size: 150%;
+  font-size: 120%;
 }
 
 h3, p {
@@ -51,7 +51,7 @@ h5 {
 }
 
 h6 {
-  font-size: 100%;
+  font-size: 1.1em;
   font-weight: 600;
 }
 
@@ -65,14 +65,6 @@ a {
   color: #000;
 }
 
-@keyframes slide-left {
-  0% {
-    transform: translateX(80px);
-  }
-  100% {
-    transform: translateX(-90px);
-  }
-}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -209,54 +201,51 @@ html {
 }
 
 .course {
-  opacity: 0;
-  display: flex;
-  align-items: flex-end;
-  margin: 15px 0px;
-  border-radius: 15px;
   background-color: white;
   box-shadow: 4px 4px 5px #d4d4d4;
+  border-radius: 15px;
   height: 75px;
+  margin: 15px 0px;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
   overflow: hidden;
 }
+.course:active .dish, .course:active .prix, .course:active .valide, .course:hover .dish, .course:hover .prix, .course:hover .valide {
+  flex: 0 2 2;
+}
 .course:active .dish, .course:hover .dish {
-  min-width: 60%;
-  padding-right: 10px;
+  max-width: 60%;
 }
 .course:active .prix, .course:hover .prix {
-  animation: slide-left 1500ms ease-in;
+  margin-right: 10px;
 }
 .course:active .validate, .course:hover .validate {
-  width: 10%;
+  width: 80px;
+  margin-right: 0px;
   opacity: 1;
-  animation: slide-left 1.2s ease-in 0s;
 }
 .course:active .validate .fa-check-circle, .course:hover .validate .fa-check-circle {
   animation: rotate 1s;
 }
 
-.dish {
-  min-width: 88%;
-  font-size: 92%;
-  justify-content: space-between;
+.dish, .prix, .valide {
+  flex: 2 1 0;
 }
-
-.dish p, h6 {
+.dish p, .dish h6, .prix p, .prix h6, .valide p, .valide h6 {
   padding-left: 15px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
-.dish p {
-  padding-bottom: 15px;
-}
-
 .prix {
-  width: 10%;
   text-align: right;
-  padding: 0 15px 15px 15px;
-  margin-right: 15px;
+  padding: 32px 10px 11px 0px;
+  margin-right: 0;
+  transition: margin-right 200ms 100ms ease-in-out;
   cursor: pointer;
 }
 
@@ -268,11 +257,12 @@ html {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #99E2D0;
-  margin-right: -35px;
-  padding: auto;
   height: 100%;
-  width: 80px;
-  opacity: 1;
+  width: 0;
+  opacity: 0;
+  min-width: 80px;
+  margin-right: -80px;
+  transition: margin-right 200ms 100ms ease-in-out;
 }
 
 .bordered-bottom {
@@ -371,7 +361,7 @@ header .fa-arrow-left-long {
 }
 
 .fa-check-circle {
-  padding-right: 10px;
+  margin: auto;
   font-size: 30px;
   color: white;
 }
@@ -415,10 +405,10 @@ header a {
   position: relative;
 }
 .main2 .restaurant_name {
-  font-size: 68%;
+  font-size: 62%;
 }
 .main2 .restaurant_name h1 {
-  width: 300px;
+  width: fit-content;
   margin: auto;
 }
 .main2 .restaurant_name .heart .fas {
@@ -427,7 +417,7 @@ header a {
 }
 
 .menu {
-  margin: 0 10px;
+  margin: 10px;
 }
 .menu .entrees .course {
   animation: loading_menus 3s;
@@ -444,20 +434,16 @@ header a {
 @media screen and (min-width: 769px) {
   .menu {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    gap: 20px;
-  }
-  .menu .course {
-    min-width: 390px;
-    max-width: 100%;
+    flex-flow: wrap;
     justify-content: space-around;
   }
-  .menu .dish {
-    width: 240px;
+  .menu .entrees, .menu .plats, .menu .desserts {
+    width: 48%;
   }
-  .menu .prix {
-    padding-left: 0;
+}
+@media screen and (min-width: 992px) {
+  .menu .entrees, .menu .plats, .menu .desserts {
+    width: 32%;
   }
 }
 
@@ -496,7 +482,7 @@ footer ul, footer a ul {
 
 body {
   font-family: Roboto, sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   margin: auto;
   padding: 0;
   max-width: 1400px;
@@ -504,7 +490,7 @@ body {
 
 h1 {
   font-family: Shrikhand, sans-serif;
-  font-size: 250%;
+  font-size: 2.5em;
   font-weight: 700;
   line-height: 1.1;
   text-align: center;
@@ -513,7 +499,7 @@ h1 {
 
 h2 {
   padding: 20px;
-  font-size: 150%;
+  font-size: 120%;
 }
 
 h3, p {
@@ -535,7 +521,7 @@ h5 {
 }
 
 h6 {
-  font-size: 100%;
+  font-size: 1.1em;
   font-weight: 600;
 }
 
